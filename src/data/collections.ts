@@ -1,0 +1,102 @@
+export interface Collection {
+  slug: string;
+  title: string;
+  description: string;
+  image: string;
+  category: "sports" | "music" | "budget" | "experience" | "seasonal";
+  hostelSlugs: string[];
+  citySlugs: string[];
+  tags: string[];
+  featured: boolean;
+}
+
+export const collections: Collection[] = [
+  {
+    slug: "champions-league-away-fan-hostels",
+    title: "Best Hostels for Champions League Away Fans",
+    description: "The ultimate guide to budget accommodation for Champions League away trips. Verified hostels near Europe's greatest stadiums, tested by traveling supporters.",
+    image: "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80",
+    category: "sports",
+    hostelSlugs: ["camp-nou-backpackers", "the-beautiful-game-hostel-london", "kreuzberg-ultras-hostel"],
+    citySlugs: ["barcelona", "london", "berlin"],
+    tags: ["champions-league", "football", "away-days", "europe"],
+    featured: true,
+  },
+  {
+    slug: "festival-circuit-budget-stays",
+    title: "Festival Circuit: Budget Stays Across Europe & Latin America",
+    description: "Follow the festival trail from Primavera Sound to Lollapalooza Argentina without breaking the bank. The best hostels for music festival fans.",
+    image: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80",
+    category: "music",
+    hostelSlugs: ["gothic-quarter-fan-hostel", "palermo-soho-sports-hostel", "kreuzberg-ultras-hostel"],
+    citySlugs: ["barcelona", "buenos-aires", "berlin"],
+    tags: ["festivals", "music", "summer", "budget"],
+    featured: true,
+  },
+  {
+    slug: "derby-day-digs",
+    title: "Derby Day Digs: Stay in the Heart of Football Rivalries",
+    description: "From the North London Derby to the Superclasico, these hostels put you right in the middle of the world's most passionate football rivalries.",
+    image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80",
+    category: "sports",
+    hostelSlugs: ["the-beautiful-game-hostel-london", "camp-nou-backpackers", "la-boca-fan-house"],
+    citySlugs: ["london", "barcelona", "buenos-aires"],
+    tags: ["derby", "football", "rivalry", "atmosphere"],
+    featured: true,
+  },
+  {
+    slug: "under-20-dollars-per-night",
+    title: "Under $20/Night: The World's Best Budget Fan Hostels",
+    description: "Incredible fan hostels that won't break the bank. All verified, all under $20 per night, all near major venues. Budget travel at its finest.",
+    image: "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+    category: "budget",
+    hostelSlugs: ["kreuzberg-ultras-hostel", "azteca-fan-hostel", "roma-norte-music-hostel", "la-boca-fan-house", "san-telmo-fan-hostel", "palermo-soho-sports-hostel"],
+    citySlugs: ["berlin", "mexico-city", "buenos-aires"],
+    tags: ["budget", "cheap", "backpacker", "value"],
+    featured: true,
+  },
+  {
+    slug: "nba-arena-crawl",
+    title: "NBA Arena Crawl: Best Hostels Near Basketball Venues",
+    description: "From Madison Square Garden to Crypto.com Arena, find the best budget stays near America's iconic basketball arenas.",
+    image: "https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=800&q=80",
+    category: "sports",
+    hostelSlugs: ["manhattan-game-day-hostel", "brooklyn-arena-hostel", "la-downtown-fan-hostel"],
+    citySlugs: ["new-york-city", "los-angeles"],
+    tags: ["nba", "basketball", "arena", "usa"],
+    featured: false,
+  },
+  {
+    slug: "latin-america-fan-trail",
+    title: "Latin America Fan Trail: Mexico City to Buenos Aires",
+    description: "Experience the most passionate fan cultures on Earth. From Estadio Azteca to La Bombonera, these hostels are your base for Latin American sports and music.",
+    image: "https://images.unsplash.com/photo-1518659526054-190340b32735?w=800&q=80",
+    category: "experience",
+    hostelSlugs: ["azteca-fan-hostel", "roma-norte-music-hostel", "la-boca-fan-house", "palermo-soho-sports-hostel"],
+    citySlugs: ["mexico-city", "buenos-aires"],
+    tags: ["latin-america", "football", "culture", "adventure"],
+    featured: false,
+  },
+  {
+    slug: "concert-lover-london",
+    title: "Concert Lover's London: From Wembley to The O2",
+    description: "London is the concert capital of the world. These fan hostels are perfectly positioned for Wembley Stadium shows, O2 Arena nights, and everything in between.",
+    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80",
+    category: "music",
+    hostelSlugs: ["wembley-fan-lodge", "south-bank-music-hostel", "the-beautiful-game-hostel-london"],
+    citySlugs: ["london"],
+    tags: ["concerts", "london", "music", "wembley", "o2"],
+    featured: false,
+  },
+  {
+    slug: "summer-2026-must-visit",
+    title: "Summer 2026: Must-Visit Fan Cities",
+    description: "The hottest fan destinations for summer 2026. Major tournaments, world tours, and festival season collide for the ultimate fan summer.",
+    image: "https://images.unsplash.com/photo-1459865264687-595d652de67e?w=800&q=80",
+    category: "seasonal",
+    hostelSlugs: ["camp-nou-backpackers", "kreuzberg-ultras-hostel", "la-downtown-fan-hostel", "wembley-fan-lodge"],
+    citySlugs: ["barcelona", "berlin", "los-angeles", "london"],
+    tags: ["summer-2026", "seasonal", "best-of", "travel"],
+    featured: false,
+  },
+];
