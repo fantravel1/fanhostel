@@ -118,6 +118,279 @@ const stories: Story[] = [
     readTime: '9 min read',
     author: 'Mike T.',
   },
+  {
+    slug: 'tokyo-baseball-culture-guide',
+    title: 'Tokyo Baseball Culture: A Fan\'s Guide to NPB',
+    excerpt:
+      'Japanese baseball is unlike anything else in sport. Organized cheering sections, bento boxes at your seat, and fans who clean up after themselves. I spent a week experiencing Tokyo Dome and fell in love with NPB forever.',
+    image:
+      'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'November 1, 2025',
+    readTime: '10 min read',
+    author: 'Kenji T.',
+  },
+  {
+    slug: 'psg-matchday-paris-on-budget',
+    title: 'PSG Matchday in Paris: Ligue 1 on a Budget',
+    excerpt:
+      'They said Paris was too expensive for backpackers. I found a fan hostel 10 minutes from Parc des Princes for $32/night, watched PSG demolish Marseille in Le Classique, and ate croissants for breakfast. Here\'s the breakdown.',
+    image:
+      'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'October 20, 2025',
+    readTime: '8 min read',
+    author: 'Amelie D.',
+  },
+  {
+    slug: 'maracana-flamengo-experience',
+    title: 'Maracana Magic: My First Flamengo Match in Rio',
+    excerpt:
+      'Nothing prepares you for 70,000 Flamengo fans drumming, dancing, and singing for 90 minutes straight. The Maracana on a Libertadores night is the most intense sporting experience I\'ve ever had. Plus, I stayed for $14/night.',
+    image:
+      'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'October 5, 2025',
+    readTime: '12 min read',
+    author: 'Lucas P.',
+  },
+  {
+    slug: 'toronto-hockey-night-guide',
+    title: 'Hockey Night in Toronto: A Maple Leafs Pilgrimage',
+    excerpt:
+      'As a lifelong hockey fan from Sweden, watching the Leafs at Scotiabank Arena was a bucket-list moment. The pre-game energy on Bay Street, the roar when they score, and the heartbreak when they don\'t — pure hockey culture.',
+    image:
+      'https://images.unsplash.com/photo-1517090504332-84f44a60c563?w=800&q=80',
+    category: 'Hockey',
+    categoryColor: 'bg-sport-hockey/20 text-sport-hockey border-sport-hockey/30',
+    date: 'September 22, 2025',
+    readTime: '9 min read',
+    author: 'Erik L.',
+  },
+  {
+    slug: 'amsterdam-ajax-derby-weekend',
+    title: 'De Klassieker Weekend: Ajax vs Feyenoord in Amsterdam',
+    excerpt:
+      'The Dutch football rivalry at its fiercest. I cycled to Johan Cruyff Arena, watched Ajax and Feyenoord battle it out, then explored Amsterdam\'s canal bars until 3am. Total cost for the weekend: $180.',
+    image:
+      'https://images.unsplash.com/photo-1534351590666-13e3e96b5571?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'September 10, 2025',
+    readTime: '7 min read',
+    author: 'Jan V.',
+  },
+  {
+    slug: 'milan-derby-della-madonnina',
+    title: 'Derby della Madonnina: AC Milan vs Inter at San Siro',
+    excerpt:
+      'Two of the greatest clubs in history share one stadium. When they face each other, San Siro splits in half — one side red and black, the other blue and black. The atmosphere is Serie A at its theatrical best.',
+    image:
+      'https://images.unsplash.com/photo-1520440229-6469d149e7c0?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'August 28, 2025',
+    readTime: '11 min read',
+    author: 'Giulia R.',
+  },
+  {
+    slug: 'old-firm-glasgow-celtic-rangers',
+    title: 'The Old Firm: Celtic vs Rangers in Glasgow',
+    excerpt:
+      'The oldest and fiercest derby in world football. Celtic Park was shaking, 60,000 voices singing, green smoke filling the air. I stayed in a hostel on Celtic Way and walked into paradise. Glasgow does rivalry like nowhere else on Earth.',
+    image:
+      'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'August 15, 2025',
+    readTime: '10 min read',
+    author: 'Hamish B.',
+  },
+  {
+    slug: 'istanbul-three-clubs-one-city',
+    title: 'Istanbul: Three Clubs, Three Continents of Passion',
+    excerpt:
+      'Galatasaray on Friday, Besiktas on Sunday, Fenerbahce on Wednesday. I crossed the Bosphorus twice, drank endless cay, and experienced the most volcanic football atmosphere outside South America. All for under $60 total on accommodation.',
+    image:
+      'https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'August 1, 2025',
+    readTime: '13 min read',
+    author: 'Mehmet A.',
+  },
+  {
+    slug: 'afl-grand-final-melbourne',
+    title: 'AFL Grand Final Day: 100,000 at the MCG',
+    excerpt:
+      'Nothing in sport compares to 100,000 Australians packed into the MCG on Grand Final day. The roar when the siren sounds, the barbecues in every park, and the entire city stopping for one game. Melbourne is the ultimate sports city.',
+    image:
+      'https://images.unsplash.com/photo-1514395462725-fb4566210144?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'July 20, 2025',
+    readTime: '9 min read',
+    author: 'Liam O.',
+  },
+  {
+    slug: 'wrigley-field-cubs-pilgrimage',
+    title: 'Wrigley Field Pilgrimage: Cubs Baseball on a Budget',
+    excerpt:
+      'The ivy-covered walls, the seventh-inning stretch singing "Take Me Out to the Ball Game", and the Wrigleyville bars overflowing after every home run. I stayed five minutes from the Friendly Confines for $32/night and lived every baseball fan\'s dream.',
+    image:
+      'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'July 8, 2025',
+    readTime: '8 min read',
+    author: 'Tom H.',
+  },
+  {
+    slug: 'muay-thai-lumpinee-bangkok',
+    title: 'Lumpinee Stadium: My First Muay Thai Night in Bangkok',
+    excerpt:
+      'The smell of liniment, the wai kru ritual dance, the crowd erupting with every elbow. Lumpinee Boxing Stadium is the sacred temple of Muay Thai, and watching championship fights for $30 was the most thrilling sporting experience of my life.',
+    image:
+      'https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'June 25, 2025',
+    readTime: '10 min read',
+    author: 'Napat S.',
+  },
+  {
+    slug: 'derby-paulista-sao-paulo',
+    title: 'Derby Paulista: Corinthians vs Palmeiras in Sao Paulo',
+    excerpt:
+      'The biggest city in South America hosts one of the biggest rivalries in world football. Neo Quimica Arena was a cauldron of noise, flares, and passion. I stayed in Vila Madalena for $12/night and experienced Brazilian football at its rawest.',
+    image:
+      'https://images.unsplash.com/photo-1619546952812-520e98064a52?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'June 12, 2025',
+    readTime: '11 min read',
+    author: 'Rafaela C.',
+  },
+  {
+    slug: 'korean-baseball-fried-chicken-soju',
+    title: 'KBO Baseball in Seoul: Fried Chicken, Soju & Chanting',
+    excerpt:
+      'Korean baseball is the most fun you can have in a stadium. Every team has unique chant songs, you order fried chicken to your seat, and the energy never drops. Jamsil Stadium on a Friday night with the LG Twins fans is pure joy.',
+    image:
+      'https://images.unsplash.com/photo-1517090504332-84f44a60c563?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'May 30, 2025',
+    readTime: '9 min read',
+    author: 'Ji-hoon K.',
+  },
+  {
+    slug: 'napoli-maradona-pilgrimage',
+    title: 'Napoli Pilgrimage: In the Footsteps of Maradona',
+    excerpt:
+      'The murals in the Quartieri Spagnoli, the stadium that now bears his name, and 50,000 fans singing "Ho visto Maradona." Naples worships football like a religion, and visiting as a fan feels like a spiritual journey.',
+    image:
+      'https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'May 15, 2025',
+    readTime: '12 min read',
+    author: 'Marco P.',
+  },
+  {
+    slug: 'mumbai-ipl-wankhede-madness',
+    title: 'IPL Madness: Mumbai Indians at Wankhede Stadium',
+    excerpt:
+      'Cricket in India is not a sport — it is a national obsession. Wankhede Stadium during an IPL match is 33,000 people losing their minds over every boundary. I stayed in Colaba for $8/night and witnessed the most passionate cricket fans on Earth.',
+    image:
+      'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'May 1, 2025',
+    readTime: '10 min read',
+    author: 'Priya M.',
+  },
+  {
+    slug: 'lisbon-benfica-sporting-double-header',
+    title: 'Lisbon Double Header: Benfica & Sporting in One Weekend',
+    excerpt:
+      'The Stadium of Light on Saturday, the Green Cathedral on Sunday. Two of Portugal\'s biggest clubs, one incredible city, endless pasteis de nata, and all for under $100 including accommodation. Lisbon is Europe\'s best-value fan city.',
+    image:
+      'https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'April 18, 2025',
+    readTime: '8 min read',
+    author: 'Joao S.',
+  },
+  {
+    slug: 'manchester-derby-old-trafford',
+    title: 'Manchester Derby: Red vs Blue at Old Trafford',
+    excerpt:
+      'The Theatre of Dreams turned into a warzone of noise. United vs City is the defining rivalry of modern English football. I stayed in the Northern Quarter, walked to Old Trafford, and experienced 90 minutes of pure tribal warfare.',
+    image:
+      'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'April 5, 2025',
+    readTime: '10 min read',
+    author: 'James R.',
+  },
+  {
+    slug: 'montreal-canadiens-bell-centre',
+    title: 'Bell Centre Magic: Canadiens Hockey Night in Montreal',
+    excerpt:
+      'The 21,000 at Bell Centre singing "Ole Ole Ole" as the Canadiens take the ice is one of sport\'s most spine-tingling moments. Combined with poutine, Montreal\'s nightlife, and $28/night hostels in the Plateau, this is a hockey pilgrimage everyone should make.',
+    image:
+      'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80',
+    category: 'Hockey',
+    categoryColor: 'bg-sport-hockey/20 text-sport-hockey border-sport-hockey/30',
+    date: 'March 22, 2025',
+    readTime: '9 min read',
+    author: 'Marc-Andre B.',
+  },
+  {
+    slug: 'cape-town-rugby-table-mountain',
+    title: 'Springbok Rugby in Cape Town: Under Table Mountain',
+    excerpt:
+      'South Africa vs New Zealand at Cape Town Stadium with Table Mountain glowing in the sunset behind the stands. The braai before the match, the Springbok faithful in green and gold, and the most scenic sporting venue on Earth.',
+    image:
+      'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'March 8, 2025',
+    readTime: '11 min read',
+    author: 'Thabo N.',
+  },
+  {
+    slug: 'anfield-champions-league-night',
+    title: 'Anfield Under the Lights: A Champions League Night',
+    excerpt:
+      'You\'ll Never Walk Alone sung by 61,000 voices before a Champions League knockout match. The Kop end in full voice, the flares and the flags, and Liverpool\'s famous European nights. Anfield on a Tuesday is the greatest atmosphere in football.',
+    image:
+      'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'February 20, 2025',
+    readTime: '12 min read',
+    author: 'Owen G.',
+  },
+  {
+    slug: 'bayern-munich-allianz-arena-glow',
+    title: 'The Allianz Arena Glow: Bayern Munich on a European Night',
+    excerpt:
+      'The Allianz Arena glows red against the Bavarian sky as 75,000 fans roar Bayern forward in the Champions League. Pre-match beer halls, Weisswurst, and the most efficient fan experience in world football. Munich does matchday with German precision.',
+    image:
+      'https://images.unsplash.com/photo-1560969184-10fe8719e047?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'February 5, 2025',
+    readTime: '9 min read',
+    author: 'Felix H.',
+  },
 ];
 
 export default function StoriesPage() {

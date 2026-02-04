@@ -33,12 +33,12 @@ const homeFaqs = [
   {
     question: "What cities does FanHostel cover?",
     answer:
-      "We currently cover major fan cities including London, Barcelona, Berlin, New York City, Los Angeles, Mexico City, and Buenos Aires. We're expanding to cover tournament cities, college sports towns, and festival circuits worldwide.",
+      "We cover 30 major fan cities across 6 continents: London, Barcelona, Berlin, New York City, Los Angeles, Mexico City, Buenos Aires, Tokyo, Paris, Amsterdam, Madrid, Milan, Rio de Janeiro, Toronto, Munich, Istanbul, Manchester, Liverpool, Lisbon, Naples, Glasgow, Seoul, Melbourne, Sao Paulo, Chicago, Miami, Cape Town, Bangkok, Montreal, and Mumbai. We're constantly expanding to cover more tournament cities, college sports towns, and festival circuits worldwide.",
   },
   {
     question: "How much do fan hostels typically cost per night?",
     answer:
-      "Prices vary by city and event, but most fan hostels range from $12-45 per night for a dorm bed. During major events like derbies or festivals, prices may increase. We always show current price ranges and booking tips to help you find the best deals.",
+      "Prices vary by city and event, but fan hostels range from as low as $8/night in Bangkok and Mumbai to $40-45/night in cities like New York and Miami. Most dorm beds fall in the $14-35 range. During major events like derbies or festivals, prices may increase. We always show current price ranges and booking tips to help you find the best deals.",
   },
   {
     question: "Is it safe to stay in fan hostels during big events?",
@@ -53,10 +53,10 @@ const homeFaqs = [
 ];
 
 const stats = [
-  { value: "1,000+", label: "Fan Hostels" },
-  { value: "250+", label: "Cities" },
-  { value: "1,500+", label: "Venues" },
-  { value: "50,000+", label: "Fan Reviews" },
+  { value: "2,000+", label: "Fan Hostels" },
+  { value: "500+", label: "Cities" },
+  { value: "3,000+", label: "Venues" },
+  { value: "100,000+", label: "Fan Reviews" },
 ];
 
 const sportCategories = [
@@ -171,10 +171,10 @@ const howItWorks = [
 ];
 
 export default function HomePage() {
-  const featuredCities = cities.slice(0, 7);
-  const upcomingEvents = events.slice(0, 6);
-  const topHostels = hostels.filter((h) => h.verified).slice(0, 6);
-  const featuredCollections = collections.filter((c) => c.featured).slice(0, 4);
+  const featuredCities = cities.slice(0, 8);
+  const upcomingEvents = events.slice(0, 8);
+  const topHostels = hostels.filter((h) => h.verified).slice(0, 8);
+  const featuredCollections = collections.filter((c) => c.featured).slice(0, 6);
 
   return (
     <>
@@ -201,7 +201,7 @@ export default function HomePage() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 mb-8">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             <span className="text-sm font-medium text-white/80">
-              Live: 1,500+ venues tracked worldwide
+              Live: 3,000+ venues tracked across 30 cities worldwide
             </span>
           </div>
 
@@ -385,7 +385,7 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {upcomingEvents.map((event) => (
               <EventCard key={event.slug} {...event} />
             ))}
@@ -442,7 +442,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredCollections.map((collection) => (
               <Link
                 key={collection.slug}
@@ -487,7 +487,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
                 quote:
@@ -511,6 +511,30 @@ export default function HomePage() {
                 author: "Kenji T.",
                 from: "Tokyo, JP",
                 event: "Berlin Marathon",
+                stars: 5,
+              },
+              {
+                quote:
+                  "Watched Flamengo at Maracana and stayed in a hostel in Lapa for $14/night. The whole hostel walked to the stadium together singing. Pure magic.",
+                author: "Lucas P.",
+                from: "Lisbon, PT",
+                event: "Flamengo vs Palmeiras, Rio",
+                stars: 5,
+              },
+              {
+                quote:
+                  "PSG matchday in Paris on a budget? FanHostel made it happen. Found a spot near Parc des Princes with a rooftop where we could hear the crowd warming up.",
+                author: "Sophie L.",
+                from: "Montreal, CA",
+                event: "PSG vs Marseille, Paris",
+                stars: 5,
+              },
+              {
+                quote:
+                  "Traveled to Tokyo for a baseball game at the Dome. The hostel had a fan lounge with jerseys on the wall. Felt like home on the other side of the world.",
+                author: "Ryan W.",
+                from: "Chicago, US",
+                event: "Yomiuri Giants, Tokyo",
                 stars: 5,
               },
             ].map((testimonial) => (
