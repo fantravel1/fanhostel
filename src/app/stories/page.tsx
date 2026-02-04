@@ -391,6 +391,136 @@ const stories: Story[] = [
     readTime: '9 min read',
     author: 'Felix H.',
   },
+  {
+    slug: 'yellow-wall-dortmund-champions-league',
+    title: 'The Yellow Wall: 25,000 Standing in Dortmund',
+    excerpt:
+      'Signal Iduna Park on a Champions League night. The Sudtribune — 25,000 fans standing, bouncing, singing as one. The largest terrace in European football. I stayed 12 minutes from the stadium for $20/night and experienced the purest expression of football fandom on Earth.',
+    image:
+      'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'January 22, 2025',
+    readTime: '11 min read',
+    author: 'Stefan K.',
+  },
+  {
+    slug: 'velodrome-marseille-om-ultras',
+    title: 'The Velodrome: OM Ultras and Mediterranean Fire',
+    excerpt:
+      'Olympique de Marseille\'s Stade Velodrome on Le Classique night. 67,000 screaming, the Virage Sud in full pyro, and the most passionate club in France delivering an atmosphere that shook my bones. Marseille is raw, beautiful, and utterly unforgettable.',
+    image:
+      'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'January 10, 2025',
+    readTime: '10 min read',
+    author: 'Youssef B.',
+  },
+  {
+    slug: 'fc-porto-dragao-super-dragoes',
+    title: 'Estadio do Dragao: Porto\'s Blue and White Army',
+    excerpt:
+      'The Super Dragoes made the Dragao shake during O Classico against Benfica. FC Porto\'s ultras are relentless — drums, flags, and chanting that never stops for 90 minutes. Then we walked to Ribeira and drank port wine by the river until sunrise. All for $16/night.',
+    image:
+      'https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'December 28, 2024',
+    readTime: '9 min read',
+    author: 'Miguel F.',
+  },
+  {
+    slug: 'soweto-derby-johannesburg-fnb',
+    title: 'The Soweto Derby: 90,000 at FNB Stadium',
+    excerpt:
+      'Kaizer Chiefs vs Orlando Pirates at the largest stadium in Africa. The colors, the vuvuzelas, the dancing — 90,000 fans creating an atmosphere unlike anything in European or South American football. South African football passion is real, raw, and massively underrated.',
+    image:
+      'https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'December 15, 2024',
+    readTime: '12 min read',
+    author: 'Sipho M.',
+  },
+  {
+    slug: 'nrl-grand-final-sydney-experience',
+    title: 'NRL Grand Final: Rugby League\'s Biggest Night in Sydney',
+    excerpt:
+      'Accor Stadium packed with 80,000 rugby league fans for the NRL Grand Final. The hits are harder, the atmosphere is louder, and the meat pies are better than anything you\'ve tasted. Sydney on Grand Final night is an absolute carnival.',
+    image:
+      'https://images.unsplash.com/photo-1514395462725-fb4566210144?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'December 1, 2024',
+    readTime: '10 min read',
+    author: 'Connor W.',
+  },
+  {
+    slug: 'eagles-tailgate-lincoln-financial',
+    title: 'Eagles Tailgate: Philly\'s Most Intense Fan Experience',
+    excerpt:
+      'They warned me about Philly fans. They were right — but in the best way possible. The Lincoln Financial Field tailgate starts at 7am, the cheesesteaks are flowing, and by kickoff the entire stadium is shaking with E-A-G-L-E-S chants. The most passionate fans in America.',
+    image:
+      'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'November 18, 2024',
+    readTime: '9 min read',
+    author: 'Brandon T.',
+  },
+  {
+    slug: 'bogota-el-campin-altitude-football',
+    title: 'Football at 2,600m: El Campin in Bogota',
+    excerpt:
+      'Playing football at altitude is brutal. Watching it is electric. Millonarios vs Santa Fe at El Campin — 36,000 Bogotanos going absolutely wild in the thin Andean air, with aguardiente and empanadas fueling the madness. Colombia\'s football passion is seriously underrated.',
+    image:
+      'https://images.unsplash.com/photo-1568632234157-ce7aecd03d0d?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'November 5, 2024',
+    readTime: '10 min read',
+    author: 'Camila R.',
+  },
+  {
+    slug: 'osaka-baseball-dotonbori-nights',
+    title: 'Osaka Baseball Nights: Kyocera Dome and Dotonbori',
+    excerpt:
+      'Watching the Orix Buffaloes at Kyocera Dome, then walking to Dotonbori for takoyaki and beer. Osaka combines Japan\'s baseball obsession with the country\'s best street food scene. The fans are louder here than Tokyo — Osaka does everything with more flavor.',
+    image:
+      'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'October 22, 2024',
+    readTime: '8 min read',
+    author: 'Haruto T.',
+  },
+  {
+    slug: 'nashville-broadway-to-geodis-park',
+    title: 'Nashville: From Broadway Honky Tonks to GEODIS Park',
+    excerpt:
+      'Nashville SC plays in the biggest soccer-specific stadium in the Americas. The atmosphere at GEODIS Park is electric, and after the match you walk to Broadway and hit the honky tonk bars. Music City meets football culture — and the combination is pure gold.',
+    image:
+      'https://images.unsplash.com/photo-1545419913-77b738f9d2de?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'October 8, 2024',
+    readTime: '8 min read',
+    author: 'Ashley M.',
+  },
+  {
+    slug: 'stockholm-derby-nordic-ultras',
+    title: 'Stockholm Derby: Nordic Ultras in the Swedish Capital',
+    excerpt:
+      'AIK vs Djurgarden at Friends Arena. Swedish football has a raw, intense ultra culture that most people don\'t expect. Pyro, massive tifos, and Nordic winter cold creating an atmosphere that European football fans are sleeping on. Stockholm is a hidden gem.',
+    image:
+      'https://images.unsplash.com/photo-1509356843151-3e7d96241e11?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'September 25, 2024',
+    readTime: '9 min read',
+    author: 'Erik N.',
+  },
 ];
 
 export default function StoriesPage() {
