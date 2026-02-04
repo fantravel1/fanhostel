@@ -4,7 +4,8 @@ import Link from 'next/link';
 
 const exploreLinks = [
   { label: 'Cities', href: '/cities' },
-  { label: 'Venues', href: '/venues' },
+  { label: 'Sports', href: '/sports' },
+  { label: 'Regions', href: '/regions' },
   { label: 'Events', href: '/events' },
   { label: 'Hostels', href: '/hostels' },
   { label: 'Collections', href: '/collections' },
@@ -14,19 +15,23 @@ const exploreLinks = [
 const cityLinks = [
   { label: 'London', href: '/cities/london' },
   { label: 'Barcelona', href: '/cities/barcelona' },
-  { label: 'Amsterdam', href: '/cities/amsterdam' },
-  { label: 'Berlin', href: '/cities/berlin' },
-  { label: 'Munich', href: '/cities/munich' },
-  { label: 'Milan', href: '/cities/milan' },
+  { label: 'Buenos Aires', href: '/cities/buenos-aires' },
+  { label: 'Istanbul', href: '/cities/istanbul' },
+  { label: 'Tokyo', href: '/cities/tokyo' },
+  { label: 'Melbourne', href: '/cities/melbourne' },
+  { label: 'Dortmund', href: '/cities/dortmund' },
+  { label: 'All 40 Cities', href: '/cities' },
 ];
 
 const eventLinks = [
-  { label: 'Premier League', href: '/events/premier-league' },
-  { label: 'Champions League', href: '/events/champions-league' },
-  { label: 'La Liga', href: '/events/la-liga' },
-  { label: 'Bundesliga', href: '/events/bundesliga' },
-  { label: 'Music Festivals', href: '/events/music-festivals' },
-  { label: 'Concert Tours', href: '/events/concert-tours' },
+  { label: 'Football', href: '/sports/football' },
+  { label: 'Basketball', href: '/sports/basketball' },
+  { label: 'Baseball', href: '/sports/baseball' },
+  { label: 'Cricket', href: '/sports/cricket' },
+  { label: 'Ice Hockey', href: '/sports/hockey' },
+  { label: 'Concerts', href: '/sports/concerts' },
+  { label: 'Rugby', href: '/sports/rugby' },
+  { label: 'Motorsport', href: '/sports/motorsport' },
 ];
 
 const companyLinks = [

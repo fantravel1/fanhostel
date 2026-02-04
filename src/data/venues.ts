@@ -2298,4 +2298,707 @@ export const venues: Venue[] = [
     ],
     events: [],
   },
+
+  // ===== MARSEILLE =====
+  {
+    slug: 'stade-velodrome',
+    name: 'Stade V\u00e9lodrome',
+    citySlug: 'marseille',
+    city: 'Marseille',
+    type: 'stadium',
+    capacity: 67394,
+    sport: 'Football',
+    teams: ['Olympique de Marseille'],
+    image: 'https://images.unsplash.com/photo-1522778526097-ce0a22ceb253?w=800&q=80',
+    description:
+      'The Stade V\u00e9lodrome is the beating heart of Marseille football and one of the most intense atmospheres in European football. Home to Olympique de Marseille, the 67,394-capacity ground erupts with the passion of the Virage Sud ultras on match days. Renovated for Euro 2016, its sweeping roof and Mediterranean setting make it an unforgettable destination.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Rond-Point du Prado metro',
+    transitInfo:
+      'Rond-Point du Prado (M2) and Sainte-Marguerite Dromel (M2) metro stations are both within walking distance. Tram T3 also serves the area. Match-day shuttle buses run from Vieux-Port.',
+    fanTips: [
+      'The Virage Sud is where the ultras sit \u2014 expect non-stop singing and tifo displays',
+      'Grab a pastis at one of the bars along Boulevard Michelet before the match',
+      'Arrive early to soak in the pre-match atmosphere around the stadium esplanade',
+    ],
+    events: [],
+  },
+  {
+    slug: 'orange-velodrome-dome',
+    name: 'Orange V\u00e9lodrome Dome',
+    citySlug: 'marseille',
+    city: 'Marseille',
+    type: 'arena',
+    capacity: 8000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&q=80',
+    description:
+      'The Orange V\u00e9lodrome Dome is Marseille\'s versatile indoor arena hosting concerts, basketball games, and entertainment events. With a capacity of 8,000, the venue offers an intimate yet electric atmosphere for performances and sporting events. Located adjacent to the iconic Stade V\u00e9lodrome, it benefits from excellent transport links.',
+    nearbyHostels: 2,
+    walkingDistance: '12 min from Rond-Point du Prado metro',
+    transitInfo:
+      'Rond-Point du Prado (M2) metro station is a short walk away. Bus lines 21 and 44 serve the area directly. Tram T3 stops nearby at Sainte-Marguerite Dromel.',
+    fanTips: [
+      'The arena hosts Pro A basketball games \u2014 the atmosphere rivals football on big nights',
+      'Check for concert listings as international acts regularly stop in Marseille',
+      'Combine a visit with exploring the nearby Parc Chanot exhibition grounds',
+    ],
+    events: [],
+  },
+  {
+    slug: 'dock-des-suds',
+    name: 'Dock des Suds',
+    citySlug: 'marseille',
+    city: 'Marseille',
+    type: 'concert-hall',
+    capacity: 5000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=800&q=80',
+    description:
+      'Dock des Suds is Marseille\'s legendary music and festival venue located in the port district. With a 5,000 capacity across indoor and outdoor stages, it hosts the famous Fiesta des Suds and countless live music events year-round. The industrial-chic dockside setting gives it a raw, authentic Marseille atmosphere.',
+    nearbyHostels: 2,
+    walkingDistance: '15 min from Joliette metro',
+    transitInfo:
+      'Joliette metro station (M2) is the closest stop, about a 15-minute walk. Bus 35 runs along the port area. The venue is walkable from the Vieux-Port in about 25 minutes along the waterfront.',
+    fanTips: [
+      'Fiesta des Suds in October is a must \u2014 world music, rock, and electronic acts over multiple days',
+      'The outdoor terrace overlooking the port is the best spot between sets',
+      'Book accommodation near Vieux-Port for easy access and nightlife after events',
+    ],
+    events: [],
+  },
+
+  // ===== DORTMUND =====
+  {
+    slug: 'signal-iduna-park',
+    name: 'Signal Iduna Park',
+    citySlug: 'dortmund',
+    city: 'Dortmund',
+    type: 'stadium',
+    capacity: 81365,
+    sport: 'Football',
+    teams: ['Borussia Dortmund'],
+    image: 'https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=800&q=80',
+    description:
+      'Signal Iduna Park is the largest stadium in Germany and home to Borussia Dortmund, boasting an incredible 81,365 capacity. The S\u00fcdtrib\u00fcne (Yellow Wall) is the largest standing terrace in European football, holding 25,000 fans who create an atmosphere unmatched anywhere on the continent. This is a bucket-list destination for every football fan on earth.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Westfalenhallen S-Bahn',
+    transitInfo:
+      'Signal Iduna Park S-Bahn station is directly adjacent. U45 and U46 subway lines stop at Stadion. From Dortmund Hauptbahnhof, take U45 directly to the ground in 8 minutes.',
+    fanTips: [
+      'The S\u00fcdtrib\u00fcne (Yellow Wall) standing section is the greatest fan experience in world football \u2014 book early',
+      'Strobels Biergarten next to the stadium is the best pre-match gathering spot',
+      'Wear black and yellow \u2014 the sea of color on match day is part of the spectacle',
+    ],
+    events: [],
+  },
+  {
+    slug: 'westfalenhallen',
+    name: 'Westfalenhallen',
+    citySlug: 'dortmund',
+    city: 'Dortmund',
+    type: 'arena',
+    capacity: 15400,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&q=80',
+    description:
+      'The Westfalenhallen complex is Dortmund\'s premier indoor arena and exhibition center, hosting concerts, sporting events, and trade shows since 1952. With a 15,400 capacity for events, it has welcomed acts from every genre and international sporting competitions. Its location next to Signal Iduna Park makes it part of Dortmund\'s sporting quarter.',
+    nearbyHostels: 2,
+    walkingDistance: '8 min from Westfalenhallen S-Bahn',
+    transitInfo:
+      'Westfalenhallen S-Bahn station provides direct rail access. U45 subway line stops at Westfalenhallen. Multiple bus lines serve the venue from Dortmund Hauptbahnhof.',
+    fanTips: [
+      'The venue hosts major handball and basketball events \u2014 check the schedule for Bundesliga action',
+      'International concert tours frequently include Dortmund \u2014 book early for big names',
+      'Combine with a visit to Signal Iduna Park next door for the full Dortmund sports experience',
+    ],
+    events: [],
+  },
+  {
+    slug: 'phoenix-des-lumieres-dortmund',
+    name: 'Phoenix des Lumi\u00e8res',
+    citySlug: 'dortmund',
+    city: 'Dortmund',
+    type: 'concert-hall',
+    capacity: 3000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?w=800&q=80',
+    description:
+      'Phoenix des Lumi\u00e8res is a stunning cultural venue in Dortmund\'s revitalized Phoenix-West industrial district, housed in a former blast furnace gas tank. With a 3,000 capacity, it hosts immersive digital art exhibitions, concerts, and cultural events. The venue represents Dortmund\'s transformation from industrial powerhouse to cultural destination.',
+    nearbyHostels: 2,
+    walkingDistance: '12 min from Horde Bahnhof S-Bahn',
+    transitInfo:
+      'Horde Bahnhof S-Bahn station is the nearest rail connection. Bus 440 runs directly to the Phoenix-West area. From Dortmund Hauptbahnhof, the journey takes about 15 minutes by S-Bahn.',
+    fanTips: [
+      'The immersive light shows are a unique experience \u2014 allow at least 90 minutes for a full visit',
+      'The surrounding Phoenix-West area has excellent restaurants and cafes in converted industrial spaces',
+      'Evening events have a special atmosphere when the light installations contrast with the dark industrial architecture',
+    ],
+    events: [],
+  },
+
+  // ===== PORTO =====
+  {
+    slug: 'estadio-do-dragao',
+    name: 'Est\u00e1dio do Drag\u00e3o',
+    citySlug: 'porto',
+    city: 'Porto',
+    type: 'stadium',
+    capacity: 50033,
+    sport: 'Football',
+    teams: ['FC Porto'],
+    image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80',
+    description:
+      'Est\u00e1dio do Drag\u00e3o is the fearsome home of FC Porto and one of the finest stadiums in Portuguese football. Built for Euro 2004, the 50,033-capacity ground is a fortress where Porto\'s passionate Sup\u00e9r Drag\u00f5es ultras create a wall of noise. Champions League nights under the Dragon\'s floodlights are legendary experiences.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Est\u00e1dio do Drag\u00e3o metro',
+    transitInfo:
+      'Est\u00e1dio do Drag\u00e3o metro station (Line A/E) is directly connected to the stadium. From Porto-Campanha train station, it is one metro stop. Bus lines 300 and 305 also serve the area.',
+    fanTips: [
+      'The Sup\u00e9r Drag\u00f5es section behind the goal is where the atmosphere is most intense',
+      'Grab a francesinha \u2014 Porto\'s legendary sandwich \u2014 before the match at nearby restaurants',
+      'The FC Porto Museum inside the stadium is excellent and open on non-match days',
+    ],
+    events: [],
+  },
+  {
+    slug: 'super-bock-arena',
+    name: 'Super Bock Arena',
+    citySlug: 'porto',
+    city: 'Porto',
+    type: 'arena',
+    capacity: 9000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80',
+    description:
+      'Super Bock Arena (Pavilh\u00e3o Rosa Mota) is Porto\'s premier indoor venue, beautifully situated in the Crystal Palace Gardens with panoramic views over the Douro River. With a 9,000 capacity, the Art Deco-influenced arena hosts major concerts, sporting events, and cultural shows. Its garden setting makes it one of the most scenic venues in Europe.',
+    nearbyHostels: 2,
+    walkingDistance: '15 min from Casa da M\u00fasica metro',
+    transitInfo:
+      'Casa da M\u00fasica metro station (Line A/B/C/E/F) is a 15-minute walk through the gardens. Tram line 18 passes nearby. Bus lines 200 and 207 stop close to the Crystal Palace Gardens entrance.',
+    fanTips: [
+      'Arrive early to stroll through the Crystal Palace Gardens \u2014 the Douro River views are stunning at sunset',
+      'The venue hosts NOS Primavera Sound after-shows and satellite events',
+      'Super Bock beer is brewed locally \u2014 enjoy a fresh one at the venue bars',
+    ],
+    events: [],
+  },
+  {
+    slug: 'estadio-do-bessa',
+    name: 'Est\u00e1dio do Bessa Sec. XXI',
+    citySlug: 'porto',
+    city: 'Porto',
+    type: 'stadium',
+    capacity: 28263,
+    sport: 'Football',
+    teams: ['Boavista FC'],
+    image: 'https://images.unsplash.com/photo-1556056333-18e1aca4e0d6?w=800&q=80',
+    description:
+      'Est\u00e1dio do Bessa is the home of Boavista FC, Porto\'s second club and the only team outside the big three to win the Portuguese league. The 28,263-capacity ground rebuilt for Euro 2004 sits in the heart of the Boavista neighborhood. It offers an authentic Portuguese football experience away from the tourist trail.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Casa da M\u00fasica metro',
+    transitInfo:
+      'Casa da M\u00fasica metro station (Line A/B/C/E/F) is the closest stop. Bus lines 200, 203, and 502 pass the stadium. The Boavista roundabout is a major transit hub.',
+    fanTips: [
+      'Boavista\'s checkered black-and-white shirts are iconic \u2014 pick one up at the club shop',
+      'The Bessa neighborhood has traditional Portuguese tascas perfect for pre-match dining',
+      'Match tickets are affordable and easy to get \u2014 a great way to experience real Portuguese football culture',
+    ],
+    events: [],
+  },
+
+  // ===== STOCKHOLM =====
+  {
+    slug: 'friends-arena',
+    name: 'Friends Arena',
+    citySlug: 'stockholm',
+    city: 'Stockholm',
+    type: 'stadium',
+    capacity: 50000,
+    sport: 'Football',
+    teams: ['AIK', 'Sweden National Team'],
+    image: 'https://images.unsplash.com/photo-1508098682722-e99c643e7f76?w=800&q=80',
+    description:
+      'Friends Arena is Sweden\'s national stadium and the largest venue in Scandinavia, with a 50,000 capacity and a retractable roof. Home to AIK and the Swedish national team, it hosts major football matches, concerts, and international events. The modern arena in Solna is a beacon of Scandinavian sports architecture.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Solna station',
+    transitInfo:
+      'Solna station (Pendelt\u00e5g commuter rail) is directly adjacent. Solna Centrum T-bana (Blue line) is a 10-minute walk. Express buses run from Stockholm Central on event days.',
+    fanTips: [
+      'AIK\'s Svarta Armen (Black Army) ultras create an incredible atmosphere in the north stand',
+      'The retractable roof means events happen rain or shine \u2014 but check if it will be open for the best experience',
+      'Mall of Scandinavia is next door for pre-event dining and entertainment',
+    ],
+    events: [],
+  },
+  {
+    slug: 'tele2-arena-stockholm',
+    name: 'Tele2 Arena',
+    citySlug: 'stockholm',
+    city: 'Stockholm',
+    type: 'stadium',
+    capacity: 33000,
+    sport: 'Football',
+    teams: ['Djurg\u00e5rden IF', 'Hammarby IF'],
+    image: 'https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&q=80',
+    description:
+      'Tele2 Arena is a state-of-the-art 33,000-capacity stadium in the Johanneshov district, shared by fierce rivals Djurg\u00e5rden IF and Hammarby IF. The enclosed design amplifies the atmosphere to incredible levels, especially during the Stockholm derby. It also hosts major concerts and international events throughout the year.',
+    nearbyHostels: 2,
+    walkingDistance: '3 min from Globen T-bana',
+    transitInfo:
+      'Globen T-bana station (Green line) is a 3-minute walk. Gullmarsplan T-bana is also nearby with multiple bus connections. Tvärbanan light rail stops at Globen.',
+    fanTips: [
+      'The Stockholm derby between Djurg\u00e5rden and Hammarby is one of Scandinavia\'s fiercest \u2014 get tickets if you can',
+      'Hammarby\'s tifo displays are among the best in European football',
+      'S\u00f6dermalm\'s bars and restaurants are a short T-bana ride away for post-match celebrations',
+    ],
+    events: [],
+  },
+  {
+    slug: 'globen-arena',
+    name: 'Avicii Arena (Globen)',
+    citySlug: 'stockholm',
+    city: 'Stockholm',
+    type: 'arena',
+    capacity: 16000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80',
+    description:
+      'The Avicii Arena, formerly known as Globen, is Stockholm\'s iconic spherical arena and one of the most recognizable buildings in Scandinavia. With a 16,000 capacity, the world\'s largest hemispherical building hosts hockey, concerts, and major events. The SkyView glass gondola ride to the top offers panoramic views of Stockholm.',
+    nearbyHostels: 2,
+    walkingDistance: '3 min from Globen T-bana',
+    transitInfo:
+      'Globen T-bana station (Green line) is directly connected. Gullmarsplan T-bana provides additional connections. Tvärbanan light rail and multiple bus lines serve the area.',
+    fanTips: [
+      'Take the SkyView glass gondola to the top of the sphere for breathtaking Stockholm views',
+      'Swedish Hockey League games here are electric \u2014 the atmosphere rivals football',
+      'The arena is next to Tele2 Arena, so check for doubleheader event opportunities',
+    ],
+    events: [],
+  },
+
+  // ===== OSAKA =====
+  {
+    slug: 'yanmar-stadium-nagai',
+    name: 'Yanmar Stadium Nagai',
+    citySlug: 'osaka',
+    city: 'Osaka',
+    type: 'stadium',
+    capacity: 47816,
+    sport: 'Football',
+    teams: ['Cerezo Osaka'],
+    image: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80',
+    description:
+      'Yanmar Stadium Nagai is the home of Cerezo Osaka and one of Japan\'s premier athletic venues, built for the 2002 FIFA World Cup. The 47,816-capacity stadium in Nagai Park hosted World Cup matches and continues to be a centerpiece of Osaka\'s sporting landscape. The surrounding park setting makes it a uniquely pleasant matchday experience.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Nagai Station',
+    transitInfo:
+      'Nagai Station (Midosuji Line/JR Hanwa Line) is a 5-minute walk. The stadium is set within the expansive Nagai Park complex. Bus routes from Tennoji also serve the area.',
+    fanTips: [
+      'Cerezo Osaka fans are among the most welcoming in J-League \u2014 join the chanting sections behind the goals',
+      'Nagai Park is beautiful for a pre-match walk, especially during cherry blossom season',
+      'Try takoyaki from the street vendors around the stadium \u2014 this is Osaka\'s signature dish',
+    ],
+    events: [],
+  },
+  {
+    slug: 'kyocera-dome-osaka',
+    name: 'Kyocera Dome Osaka',
+    citySlug: 'osaka',
+    city: 'Osaka',
+    type: 'stadium',
+    capacity: 36477,
+    sport: 'Baseball',
+    teams: ['Orix Buffaloes'],
+    image: 'https://images.unsplash.com/photo-1529768167801-9173d94c2a42?w=800&q=80',
+    description:
+      'Kyocera Dome Osaka is the home of the Orix Buffaloes and one of Japan\'s iconic domed baseball stadiums. With a 36,477 capacity, the retractable-roof venue hosts NPB baseball, major concerts, and events year-round. Japanese baseball culture \u2014 with organized cheering sections, trumpet bands, and beer vendors \u2014 makes every game a spectacle.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Dome-mae Chiyozaki Station',
+    transitInfo:
+      'Dome-mae Chiyozaki Station (Nagahori Tsurumi-ryokuchi Line) is directly connected. Taisho Station (JR/Nagahori Line) is also nearby. Multiple bus routes serve the dome area.',
+    fanTips: [
+      'Sit in the outfield cheering section to experience the full Japanese baseball fan culture with organized chants',
+      'Buy a bento box and beer from the stadium vendors \u2014 Japanese ballpark food is an art form',
+      'Concerts here are massive \u2014 major J-pop and international acts play the dome regularly',
+    ],
+    events: [],
+  },
+  {
+    slug: 'panasonic-stadium-suita',
+    name: 'Panasonic Stadium Suita',
+    citySlug: 'osaka',
+    city: 'Osaka',
+    type: 'stadium',
+    capacity: 39694,
+    sport: 'Football',
+    teams: ['Gamba Osaka'],
+    image: 'https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?w=800&q=80',
+    description:
+      'Panasonic Stadium Suita is the purpose-built home of Gamba Osaka, one of Japan\'s most successful J-League clubs. The 39,694-capacity football-specific stadium opened in 2016 and features steep stands that bring fans incredibly close to the pitch. Its modern design and compact layout create an atmosphere that rivals much larger venues.',
+    nearbyHostels: 2,
+    walkingDistance: '20 min from Mannose Station or shuttle bus',
+    transitInfo:
+      'Free shuttle buses run from Senri-Chuo Station (Midosuji/Kitakyu Line) on match days. Mannose Station (Osaka Monorail) is the closest regular stop. From central Osaka, take the Midosuji Line to Senri-Chuo.',
+    fanTips: [
+      'The steep stands create an intimate, intimidating atmosphere \u2014 sit behind the goal for maximum noise',
+      'Gamba\'s rivalry with Cerezo Osaka (the Osaka Derby) is fierce \u2014 try to attend one',
+      'Expo \'70 Commemorative Park nearby is worth exploring before the match, featuring the iconic Tower of the Sun',
+    ],
+    events: [],
+  },
+
+  // ===== BOGOTA =====
+  {
+    slug: 'estadio-el-campin',
+    name: 'Estadio El Camp\u00edn',
+    citySlug: 'bogota',
+    city: 'Bogot\u00e1',
+    type: 'stadium',
+    capacity: 36343,
+    sport: 'Football',
+    teams: ['Millonarios FC', 'Independiente Santa Fe'],
+    image: 'https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80',
+    description:
+      'Estadio El Camp\u00edn (officially Estadio Nemesio Camacho) is the historic heart of Bogot\u00e1 football, shared by fierce rivals Millonarios and Santa Fe. The 36,343-capacity stadium sits at 2,640 meters above sea level, making it one of the highest-altitude major stadiums in the world. The Bogot\u00e1 derby here is one of South America\'s most passionate fixtures.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Estadio TransMilenio station',
+    transitInfo:
+      'Estadio TransMilenio station is a 10-minute walk. The NQS TransMilenio line runs directly past the stadium area. Taxis and ride-sharing from the Zona T or Candelaria districts take 15-20 minutes.',
+    fanTips: [
+      'The Bogot\u00e1 derby between Millonarios and Santa Fe is electric \u2014 the atmosphere at altitude is breathtaking',
+      'Dress warmly \u2014 Bogot\u00e1\'s altitude means evening matches can be surprisingly cold',
+      'The lateral (side) stands offer the best views, while the popular sections behind the goals have the best atmosphere',
+    ],
+    events: [],
+  },
+  {
+    slug: 'movistar-arena-bogota',
+    name: 'Movistar Arena Bogot\u00e1',
+    citySlug: 'bogota',
+    city: 'Bogot\u00e1',
+    type: 'arena',
+    capacity: 14000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80',
+    description:
+      'Movistar Arena is Bogot\u00e1\'s principal indoor arena, hosting concerts, basketball, and major entertainment events with a 14,000 capacity. Located in the Salitre district near the city\'s sports complex, it is Colombia\'s most important indoor venue. International music tours, Colombian basketball, and cultural events fill the calendar year-round.',
+    nearbyHostels: 2,
+    walkingDistance: '12 min from Salitre El Greco TransMilenio',
+    transitInfo:
+      'Salitre El Greco TransMilenio station is the closest rapid transit stop. The venue is part of the Salitre sports complex near Sim\u00f3n Bol\u00edvar Park. Taxis from the Zona Rosa nightlife district take about 15 minutes.',
+    fanTips: [
+      'Colombian concert crowds are incredibly energetic \u2014 expect dancing and singing throughout every show',
+      'The arena hosts major reggaeton, salsa, and international pop tours regularly',
+      'Combine a visit with a walk through the adjacent Sim\u00f3n Bol\u00edvar Metropolitan Park',
+    ],
+    events: [],
+  },
+  {
+    slug: 'estadio-nemesio-camacho',
+    name: 'Estadio Nemesio Camacho (El Camp\u00edn Alterno)',
+    citySlug: 'bogota',
+    city: 'Bogot\u00e1',
+    type: 'stadium',
+    capacity: 38000,
+    sport: 'Football',
+    teams: ['Millonarios FC', 'Independiente Santa Fe'],
+    image: 'https://images.unsplash.com/photo-1551958219-acbc608c6377?w=800&q=80',
+    description:
+      'The expanded Estadio Nemesio Camacho configuration accommodates up to 38,000 fans for major events, serving as Bogot\u00e1\'s primary venue for international football matches and Copa Libertadores nights. At 2,640 meters altitude, visiting teams struggle with the thin air while the passionate Bogot\u00e1 crowd roars them on. This is South American football at its rawest.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Estadio TransMilenio station',
+    transitInfo:
+      'Estadio TransMilenio station provides direct rapid transit access. The NQS corridor runs north-south past the stadium. SITP feeder buses connect from surrounding neighborhoods.',
+    fanTips: [
+      'Altitude affects visiting players significantly \u2014 home teams have a massive advantage in Bogot\u00e1',
+      'Try an empanada and hot chocolate from the street vendors outside \u2014 the perfect high-altitude match snack',
+      'Copa Libertadores nights are the pinnacle \u2014 the combination of altitude and crowd noise is legendary',
+    ],
+    events: [],
+  },
+
+  // ===== JOHANNESBURG =====
+  {
+    slug: 'fnb-stadium',
+    name: 'FNB Stadium (Soccer City)',
+    citySlug: 'johannesburg',
+    city: 'Johannesburg',
+    type: 'stadium',
+    capacity: 94736,
+    sport: 'Football',
+    teams: ['Kaizer Chiefs'],
+    image: 'https://images.unsplash.com/photo-1522778034537-20a2486be803?w=800&q=80',
+    description:
+      'FNB Stadium, also known as Soccer City, is the largest stadium in Africa with a staggering 94,736 capacity. The calabash-shaped venue hosted the 2010 FIFA World Cup Final and is home to Kaizer Chiefs, South Africa\'s most popular club. The Soweto Derby between Chiefs and Orlando Pirates here is one of the most electric sporting events on the planet.',
+    nearbyHostels: 2,
+    walkingDistance: '15 min from Nasrec Gautrain station',
+    transitInfo:
+      'Nasrec is accessible via the Gautrain bus service from Ormonde station. Rea Vaya BRT runs special services on event days. Most fans use organized transport or drive \u2014 parking is extensive.',
+    fanTips: [
+      'The Soweto Derby between Kaizer Chiefs and Orlando Pirates is a must-see \u2014 95,000 fans in full voice is life-changing',
+      'Vuvuzelas are part of the culture \u2014 embrace the noise and buy one from the vendors outside',
+      'Arrive very early for big matches as traffic around Nasrec can be intense on derby days',
+    ],
+    events: [],
+  },
+  {
+    slug: 'ellis-park',
+    name: 'Ellis Park Stadium',
+    citySlug: 'johannesburg',
+    city: 'Johannesburg',
+    type: 'stadium',
+    capacity: 62567,
+    sport: 'Rugby',
+    teams: ['Lions'],
+    image: 'https://images.unsplash.com/photo-1544689723-6041278c0823?w=800&q=80',
+    description:
+      'Ellis Park is one of the most storied stadiums in world rugby, home to the Golden Lions and venue for the unforgettable 1995 Rugby World Cup Final where Nelson Mandela united a nation. The 62,567-capacity ground in Doornfontein hosts Springbok test matches and United Rugby Championship fixtures. Rugby at altitude in Johannesburg is a unique sporting experience.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Doornfontein station',
+    transitInfo:
+      'Doornfontein station (Metrorail) is the closest rail stop. Rea Vaya BRT serves the area on event days. The stadium is a short drive from Sandton and Rosebank via the M1 highway.',
+    fanTips: [
+      'Springbok test matches at Ellis Park are incredible \u2014 South African rugby fans are among the most knowledgeable in the world',
+      'The braai (barbecue) tailgate culture in the parking areas is a fantastic pre-match experience',
+      'Visit the on-site rugby museum to see memorabilia from the iconic 1995 World Cup Final',
+    ],
+    events: [],
+  },
+  {
+    slug: 'wanderers-stadium',
+    name: 'The Wanderers Stadium (The Bullring)',
+    citySlug: 'johannesburg',
+    city: 'Johannesburg',
+    type: 'stadium',
+    capacity: 34000,
+    sport: 'Cricket',
+    teams: ['Lions'],
+    image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&q=80',
+    description:
+      'The Wanderers Stadium, known as The Bullring for its hostile atmosphere toward visiting teams, is one of cricket\'s most iconic grounds. With a 34,000 capacity, the Johannesburg venue has hosted some of the greatest matches in cricket history, including the famous 438 game. The altitude produces fast, bouncy pitches that make for thrilling cricket.',
+    nearbyHostels: 2,
+    walkingDistance: '15 min from Rosebank Gautrain station',
+    transitInfo:
+      'Rosebank Gautrain station is the nearest rapid transit stop, about a 15-minute walk or short taxi ride. The stadium is in Illovo, accessible from the M1 highway. Gautrain buses connect from Sandton.',
+    fanTips: [
+      'The grass banks are the best spots \u2014 bring a blanket, cooler box, and sunscreen for a classic South African cricket day',
+      'The Bullring atmosphere during a Proteas vs India or Australia test is electric',
+      'Castle Corner and the party stands are where the most vocal fans gather \u2014 expect chanting and fancy dress',
+    ],
+    events: [],
+  },
+
+  // ===== SYDNEY =====
+  {
+    slug: 'accor-stadium-sydney',
+    name: 'Accor Stadium',
+    citySlug: 'sydney',
+    city: 'Sydney',
+    type: 'stadium',
+    capacity: 83500,
+    sport: 'Rugby',
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80',
+    description:
+      'Accor Stadium (formerly ANZ Stadium) in Sydney Olympic Park is Australia\'s largest stadium with an 83,500 capacity. Built for the 2000 Sydney Olympics, it hosts NRL Grand Finals, State of Origin, Bledisloe Cup rugby, Socceroos matches, and the biggest concert tours. The stadium is a multi-sport cathedral in the heart of Olympic Park.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Olympic Park station',
+    transitInfo:
+      'Olympic Park station (T7 line) runs express services on event days from Central Station. Sydney Metro West will improve access further. Ferry services to Olympic Park Wharf are available.',
+    fanTips: [
+      'State of Origin nights are the pinnacle of Australian sport \u2014 the atmosphere of 80,000+ is unforgettable',
+      'NRL Grand Final day in October is a must for any rugby league fan visiting Sydney',
+      'The Olympic Park precinct has plenty of food options but they get busy \u2014 eat before arriving or bring supplies',
+    ],
+    events: [],
+  },
+  {
+    slug: 'sydney-cricket-ground',
+    name: 'Sydney Cricket Ground',
+    citySlug: 'sydney',
+    city: 'Sydney',
+    type: 'stadium',
+    capacity: 48000,
+    sport: 'Cricket',
+    teams: ['Sydney Swans'],
+    image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=800&q=80',
+    description:
+      'The Sydney Cricket Ground is one of the world\'s most beloved sporting venues, steeped in over 170 years of history. With a 48,000 capacity, the SCG hosts international cricket, AFL (Sydney Swans), and rugby. The Members\' Pavilion, the Hill, and the atmosphere of a New Year\'s Test match make it a pilgrimage site for cricket lovers worldwide.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Moore Park light rail',
+    transitInfo:
+      'Moore Park light rail stop (L2/L3) is a 10-minute walk. Bus routes 339, 373, and 374 serve the area from Central Station. Walking from Central Station takes about 20 minutes through Surry Hills.',
+    fanTips: [
+      'The New Year\'s cricket Test starting January 3 is a Sydney tradition \u2014 sit on the Hill for the full experience',
+      'Sydney Swans AFL games at the SCG have a unique atmosphere that blends cricket ground charm with Aussie Rules passion',
+      'The Cricketers Arms pub on Fitzroy Street is the classic pre-match and post-match gathering spot',
+    ],
+    events: [],
+  },
+  {
+    slug: 'allianz-stadium-sydney',
+    name: 'Allianz Stadium',
+    citySlug: 'sydney',
+    city: 'Sydney',
+    type: 'stadium',
+    capacity: 42512,
+    sport: 'Football',
+    teams: ['Sydney FC', 'NSW Waratahs'],
+    image: 'https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&q=80',
+    description:
+      'Allianz Stadium is the rebuilt jewel of Moore Park, home to Sydney FC and the NSW Waratahs. The brand-new 42,512-capacity venue opened in 2022 with state-of-the-art facilities and a stunning design that brings fans closer to the action than its predecessor. A-League derbies and Super Rugby matches here showcase Australian sport at its finest.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Moore Park light rail',
+    transitInfo:
+      'Moore Park light rail stop (L2/L3) provides direct access. Bus routes from Central Station serve the Moore Park area. The venue is adjacent to the SCG in the Moore Park sporting precinct.',
+    fanTips: [
+      'The Sydney Derby between Sydney FC and Western Sydney Wanderers is A-League\'s biggest match \u2014 the Cove end is electric',
+      'The new stadium design means every seat has excellent sightlines \u2014 but lower tiers are closest to the pitch',
+      'Combine a Sydney FC match with a visit to the nearby SCG and explore the Moore Park sporting precinct',
+    ],
+    events: [],
+  },
+
+  // ===== NASHVILLE =====
+  {
+    slug: 'nissan-stadium',
+    name: 'Nissan Stadium',
+    citySlug: 'nashville',
+    city: 'Nashville',
+    type: 'stadium',
+    capacity: 69143,
+    sport: 'Football',
+    teams: ['Tennessee Titans'],
+    image: 'https://images.unsplash.com/photo-1508098682722-e99c643e7f76?w=800&q=80',
+    description:
+      'Nissan Stadium is the home of the Tennessee Titans on the east bank of the Cumberland River, with a 69,143 capacity and stunning views of the Nashville skyline. NFL Sundays here are a perfect blend of Southern hospitality and football passion. The stadium also hosts major concerts, college football, and international soccer matches.',
+    nearbyHostels: 2,
+    walkingDistance: '15 min walk from Broadway via pedestrian bridge',
+    transitInfo:
+      'The John Seigenthaler Pedestrian Bridge connects downtown Broadway to the stadium in a 15-minute walk. WeGo transit buses serve the area. Ride-sharing drop-offs are at Lot R.',
+    fanTips: [
+      'Walk across the Pedestrian Bridge from Broadway for incredible skyline views on your way to the game',
+      'Tailgating in the parking lots starts 4 hours before kickoff \u2014 Southern BBQ and cold beer are the staples',
+      'Hit Broadway\'s honky-tonks after the game \u2014 live country music until the early hours is a Nashville tradition',
+    ],
+    events: [],
+  },
+  {
+    slug: 'bridgestone-arena',
+    name: 'Bridgestone Arena',
+    citySlug: 'nashville',
+    city: 'Nashville',
+    type: 'arena',
+    capacity: 17159,
+    sport: 'Hockey',
+    teams: ['Nashville Predators'],
+    image: 'https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&q=80',
+    description:
+      'Bridgestone Arena is the home of the Nashville Predators and one of the loudest arenas in the NHL. With a 17,159 capacity right on Broadway, the arena sits in the absolute heart of Nashville\'s entertainment district. Predators games feature unique traditions including catfish throwing and a raucous crowd that has made Nashville one of hockey\'s great success stories.',
+    nearbyHostels: 2,
+    walkingDistance: '2 min from Broadway honky-tonks',
+    transitInfo:
+      'Located at 5th and Broadway, the arena is walkable from anywhere downtown. WeGo Star commuter rail stops at Riverfront Station nearby. Multiple bus routes converge at the downtown transit center.',
+    fanTips: [
+      'The catfish-throwing tradition after the first Predators goal is legendary \u2014 watch for it',
+      'Pre-game and post-game on Broadway is essential \u2014 Tootsie\'s, Robert\'s Western World, and The Stage are steps away',
+      'Smashville (the fan section) behind the visiting team\'s goal is the loudest spot in the building',
+    ],
+    events: [],
+  },
+  {
+    slug: 'geodis-park-nashville',
+    name: 'GEODIS Park',
+    citySlug: 'nashville',
+    city: 'Nashville',
+    type: 'stadium',
+    capacity: 30000,
+    sport: 'Football',
+    teams: ['Nashville SC'],
+    image: 'https://images.unsplash.com/photo-1459865264687-595d652de67e?w=800&q=80',
+    description:
+      'GEODIS Park is the largest soccer-specific stadium in the Americas with a 30,000 capacity, and the home of Nashville SC. Opened in 2022 in the Wedgewood-Houston neighborhood, the stunning venue was purpose-built for football and features a safe-standing supporters\' section that creates an MLS-best atmosphere. It represents Nashville\'s arrival as a major soccer city.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Wedgewood-Houston district',
+    transitInfo:
+      'WeGo bus routes serve the Wedgewood-Houston area. The stadium is a 15-minute walk or short ride from downtown Broadway. Ride-sharing and dedicated parking lots are available on match days.',
+    fanTips: [
+      'The Backline supporters group in the safe-standing section creates an atmosphere that rivals any in MLS',
+      'Wedgewood-Houston is Nashville\'s trendiest neighborhood \u2014 explore the breweries and restaurants before kickoff',
+      'GEODIS Park was built for soccer, so every seat has perfect sightlines \u2014 but the supporters\' end is where the magic happens',
+    ],
+    events: [],
+  },
+
+  // ===== PHILADELPHIA =====
+  {
+    slug: 'lincoln-financial-field',
+    name: 'Lincoln Financial Field',
+    citySlug: 'philadelphia',
+    city: 'Philadelphia',
+    type: 'stadium',
+    capacity: 67594,
+    sport: 'Football',
+    teams: ['Philadelphia Eagles'],
+    image: 'https://images.unsplash.com/photo-1508098682722-e99c643e7f76?w=800&q=80',
+    description:
+      'Lincoln Financial Field is the home of the Philadelphia Eagles and one of the most intimidating stadiums in the NFL. The 67,594-capacity venue in the South Philadelphia Sports Complex is renowned for its passionate, vocal, and notoriously tough fanbase. Eagles fans are legends of American sports fandom, and game days at the Linc are an unforgettable experience.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from NRG station (BSL)',
+    transitInfo:
+      'NRG station on the Broad Street Line (BSL) is directly adjacent to the sports complex. SEPTA bus routes and the AT&T station also serve the area. From Center City, the BSL takes about 15 minutes.',
+    fanTips: [
+      'Eagles fans are among the most passionate in all of sports \u2014 join the E-A-G-L-E-S chant and you will be welcomed',
+      'Tailgating in the parking lots is an Eagles institution \u2014 arrive 3-4 hours early for the full experience',
+      'Xfinity Live! entertainment complex next door is the go-to pre-game and post-game destination',
+    ],
+    events: [],
+  },
+  {
+    slug: 'wells-fargo-center',
+    name: 'Wells Fargo Center',
+    citySlug: 'philadelphia',
+    city: 'Philadelphia',
+    type: 'arena',
+    capacity: 20478,
+    sport: 'Basketball',
+    teams: ['Philadelphia 76ers', 'Philadelphia Flyers'],
+    image: 'https://images.unsplash.com/photo-1504450758481-7338bbe75005?w=800&q=80',
+    description:
+      'The Wells Fargo Center is home to both the Philadelphia 76ers (NBA) and the Philadelphia Flyers (NHL), with a 20,478 capacity. Located in the South Philadelphia Sports Complex alongside the Linc and Citizens Bank Park, the arena hosts basketball, hockey, concerts, and major events. Sixers and Flyers fans bring the same legendary Philly intensity indoors.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from NRG station (BSL)',
+    transitInfo:
+      'NRG station on the Broad Street Line (BSL) is steps away. The entire South Philadelphia Sports Complex is served by SEPTA. Express buses run on event nights from Center City.',
+    fanTips: [
+      'Trust the Process \u2014 76ers games are electric and Philly basketball fans are knowledgeable and passionate',
+      'Flyers hockey games bring out old-school Philly toughness \u2014 the Broad Street Bullies spirit lives on',
+      'The South Philly sports complex lets you catch Eagles, Sixers, Flyers, and Phillies all within walking distance',
+    ],
+    events: [],
+  },
+  {
+    slug: 'citizens-bank-park',
+    name: 'Citizens Bank Park',
+    citySlug: 'philadelphia',
+    city: 'Philadelphia',
+    type: 'stadium',
+    capacity: 42792,
+    sport: 'Baseball',
+    teams: ['Philadelphia Phillies'],
+    image: 'https://images.unsplash.com/photo-1529768167801-9173d94c2a42?w=800&q=80',
+    description:
+      'Citizens Bank Park is the home of the Philadelphia Phillies and one of baseball\'s best ballparks. The 42,792-capacity stadium in the South Philadelphia Sports Complex features Ashburn Alley, the iconic Liberty Bell home run celebration, and some of the most passionate baseball fans in America. Philly cheesesteaks at the ballpark are a rite of passage.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from NRG station (BSL)',
+    transitInfo:
+      'NRG station on the Broad Street Line (BSL) provides direct subway access. SEPTA bus routes serve the South Philadelphia Sports Complex. The Phlash downtown loop bus also connects on game days.',
+    fanTips: [
+      'Ashburn Alley beyond center field has the best food in the park \u2014 get a cheesesteak from Tony Luke\'s or Campo\'s',
+      'The Phillies Phanatic is the greatest mascot in sports \u2014 watch for his antics on top of the dugout',
+      'Rooftop bleachers in right field offer great views and a party atmosphere for day games',
+    ],
+    events: [],
+  },
 ];

@@ -33,7 +33,7 @@ const homeFaqs = [
   {
     question: "What cities does FanHostel cover?",
     answer:
-      "We cover 30 major fan cities across 6 continents: London, Barcelona, Berlin, New York City, Los Angeles, Mexico City, Buenos Aires, Tokyo, Paris, Amsterdam, Madrid, Milan, Rio de Janeiro, Toronto, Munich, Istanbul, Manchester, Liverpool, Lisbon, Naples, Glasgow, Seoul, Melbourne, Sao Paulo, Chicago, Miami, Cape Town, Bangkok, Montreal, and Mumbai. We're constantly expanding to cover more tournament cities, college sports towns, and festival circuits worldwide.",
+      "We cover 40 major fan cities across 6 continents including London, Barcelona, Munich, Istanbul, Dortmund, Marseille, Glasgow, Naples, Porto, Liverpool, Manchester, Stockholm, Madrid, Milan, Amsterdam, Lisbon, Paris, Berlin, New York, Chicago, Miami, Philadelphia, Nashville, Los Angeles, Montreal, Toronto, Mexico City, Buenos Aires, Rio de Janeiro, Sao Paulo, Bogota, Tokyo, Seoul, Osaka, Bangkok, Mumbai, Melbourne, Sydney, Cape Town, and Johannesburg. We're constantly expanding to cover more tournament cities, college sports towns, and festival circuits worldwide.",
   },
   {
     question: "How much do fan hostels typically cost per night?",
@@ -201,7 +201,7 @@ export default function HomePage() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 mb-8">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             <span className="text-sm font-medium text-white/80">
-              Live: 3,000+ venues tracked across 30 cities worldwide
+              Live: 4,000+ venues tracked across 40 cities worldwide
             </span>
           </div>
 
