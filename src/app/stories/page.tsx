@@ -118,6 +118,84 @@ const stories: Story[] = [
     readTime: '9 min read',
     author: 'Mike T.',
   },
+  {
+    slug: 'tokyo-baseball-culture-guide',
+    title: 'Tokyo Baseball Culture: A Fan\'s Guide to NPB',
+    excerpt:
+      'Japanese baseball is unlike anything else in sport. Organized cheering sections, bento boxes at your seat, and fans who clean up after themselves. I spent a week experiencing Tokyo Dome and fell in love with NPB forever.',
+    image:
+      'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80',
+    category: 'Sports',
+    categoryColor: 'bg-primary/20 text-primary border-primary/30',
+    date: 'November 1, 2025',
+    readTime: '10 min read',
+    author: 'Kenji T.',
+  },
+  {
+    slug: 'psg-matchday-paris-on-budget',
+    title: 'PSG Matchday in Paris: Ligue 1 on a Budget',
+    excerpt:
+      'They said Paris was too expensive for backpackers. I found a fan hostel 10 minutes from Parc des Princes for $32/night, watched PSG demolish Marseille in Le Classique, and ate croissants for breakfast. Here\'s the breakdown.',
+    image:
+      'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'October 20, 2025',
+    readTime: '8 min read',
+    author: 'Amelie D.',
+  },
+  {
+    slug: 'maracana-flamengo-experience',
+    title: 'Maracana Magic: My First Flamengo Match in Rio',
+    excerpt:
+      'Nothing prepares you for 70,000 Flamengo fans drumming, dancing, and singing for 90 minutes straight. The Maracana on a Libertadores night is the most intense sporting experience I\'ve ever had. Plus, I stayed for $14/night.',
+    image:
+      'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'October 5, 2025',
+    readTime: '12 min read',
+    author: 'Lucas P.',
+  },
+  {
+    slug: 'toronto-hockey-night-guide',
+    title: 'Hockey Night in Toronto: A Maple Leafs Pilgrimage',
+    excerpt:
+      'As a lifelong hockey fan from Sweden, watching the Leafs at Scotiabank Arena was a bucket-list moment. The pre-game energy on Bay Street, the roar when they score, and the heartbreak when they don\'t — pure hockey culture.',
+    image:
+      'https://images.unsplash.com/photo-1517090504332-84f44a60c563?w=800&q=80',
+    category: 'Hockey',
+    categoryColor: 'bg-sport-hockey/20 text-sport-hockey border-sport-hockey/30',
+    date: 'September 22, 2025',
+    readTime: '9 min read',
+    author: 'Erik L.',
+  },
+  {
+    slug: 'amsterdam-ajax-derby-weekend',
+    title: 'De Klassieker Weekend: Ajax vs Feyenoord in Amsterdam',
+    excerpt:
+      'The Dutch football rivalry at its fiercest. I cycled to Johan Cruyff Arena, watched Ajax and Feyenoord battle it out, then explored Amsterdam\'s canal bars until 3am. Total cost for the weekend: $180.',
+    image:
+      'https://images.unsplash.com/photo-1534351590666-13e3e96b5571?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'September 10, 2025',
+    readTime: '7 min read',
+    author: 'Jan V.',
+  },
+  {
+    slug: 'milan-derby-della-madonnina',
+    title: 'Derby della Madonnina: AC Milan vs Inter at San Siro',
+    excerpt:
+      'Two of the greatest clubs in history share one stadium. When they face each other, San Siro splits in half — one side red and black, the other blue and black. The atmosphere is Serie A at its theatrical best.',
+    image:
+      'https://images.unsplash.com/photo-1520440229-6469d149e7c0?w=800&q=80',
+    category: 'Football',
+    categoryColor: 'bg-sport-football/20 text-sport-football border-sport-football/30',
+    date: 'August 28, 2025',
+    readTime: '11 min read',
+    author: 'Giulia R.',
+  },
 ];
 
 export default function StoriesPage() {

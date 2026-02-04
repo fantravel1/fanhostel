@@ -595,4 +595,579 @@ export const venues: Venue[] = [
       'arctic-monkeys-buenos-aires-2026',
     ],
   },
+
+  // ===== TOKYO =====
+  {
+    slug: 'tokyo-dome',
+    name: 'Tokyo Dome',
+    citySlug: 'tokyo',
+    city: 'Tokyo',
+    type: 'stadium',
+    capacity: 55000,
+    sport: 'Baseball',
+    teams: ['Yomiuri Giants'],
+    image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80',
+    description:
+      'Known affectionately as "The Big Egg," Tokyo Dome is the iconic home of the Yomiuri Giants and Japan\'s most famous sporting venue. Beyond baseball, it hosts blockbuster concerts from J-pop superstars and international acts alike, as well as pro wrestling and MMA events. The enclosed dome creates an electrifying atmosphere where 55,000 fans wave thundersticks in perfect unison.',
+    nearbyHostels: 3,
+    walkingDistance: '5 min from Suidobashi station',
+    transitInfo:
+      'Suidobashi station (JR Chuo-Sobu Line, Toei Mita Line) is a 5-minute walk. Korakuen station (Marunouchi and Namboku lines) is even closer. Tokyo Dome City complex surrounds the venue with shops and entertainment.',
+    fanTips: [
+      'Thundersticks and team towels are sold outside — buy them to join in the organized cheering',
+      'Each section of fans has a dedicated cheer leader who conducts coordinated songs',
+      'Tokyo Dome City attractions including a roller coaster make for a great pre-game visit',
+      'Convenience stores near the station sell affordable bento boxes to bring inside',
+    ],
+    events: [
+      'yomiuri-giants-vs-hanshin-tigers-2026',
+      'one-ok-rock-tokyo-dome-2026',
+    ],
+  },
+  {
+    slug: 'national-stadium-tokyo',
+    name: 'National Stadium',
+    citySlug: 'tokyo',
+    city: 'Tokyo',
+    type: 'stadium',
+    capacity: 68000,
+    sport: 'Football',
+    teams: ['Japan National Team'],
+    image: 'https://images.unsplash.com/photo-1459865264687-595d652de67e?w=800&q=80',
+    description:
+      'The stunning centerpiece of the 2020 Tokyo Olympics, designed by Kengo Kuma with a latticed timber exterior inspired by traditional Japanese architecture. The National Stadium hosts Japan national football team matches, major athletics events, and large-scale concerts. Its open-air design channels natural breezes through the stands, creating a uniquely comfortable spectator experience even in summer.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Sendagaya station',
+    transitInfo:
+      'Sendagaya station (JR Chuo-Sobu Line) and Kokuritsu-Kyogijo station (Toei Oedo Line) are both within a 5-minute walk. Shinanomachi station (JR Chuo-Sobu Line) is also close. The Meiji Jingu Gaien area is well connected by bus.',
+    fanTips: [
+      'Arrive early to admire the Kengo Kuma architecture and surrounding Meiji Jingu Gaien gardens',
+      'Japanese football fans are exceptionally organized — follow the crowd for coordinated chants',
+      'Meiji Jingu shrine is a short walk away and worth combining with your visit',
+      'Convenience store onigiri and drinks are the budget-friendly way to fuel up before events',
+    ],
+    events: [
+      'japan-vs-australia-wcq-2026',
+      'tokyo-athletics-grand-prix-2026',
+    ],
+  },
+  {
+    slug: 'nippon-budokan',
+    name: 'Nippon Budokan',
+    citySlug: 'tokyo',
+    city: 'Tokyo',
+    type: 'arena',
+    capacity: 14471,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80',
+    description:
+      'Originally built for the 1964 Olympic judo competition, the Nippon Budokan has become one of the world\'s most legendary concert venues. Its octagonal design and distinctive onion-shaped roof sit within the Imperial Palace moat gardens, creating a serene exterior that belies the explosive energy inside. Playing the Budokan is a rite of passage for rock and pop artists worldwide, immortalized by Cheap Trick\'s iconic live album.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Kudanshita station',
+    transitInfo:
+      'Kudanshita station (Tozai, Hanzomon, and Shinjuku lines) is directly adjacent. The venue sits within Kitanomaru Park, a short walk from the Imperial Palace East Gardens. Multiple bus routes serve the Kudanshita area.',
+    fanTips: [
+      'The intimate octagonal layout means every seat feels close to the stage',
+      'Explore Kitanomaru Park and the Imperial Palace gardens before the show',
+      'Merch lines form early — arrive at least an hour before doors for exclusive items',
+      'Yasukuni-dori avenue nearby has great izakayas for post-show food and drinks',
+    ],
+    events: [
+      'babymetal-budokan-2026',
+      'world-judo-championships-2026',
+    ],
+  },
+
+  // ===== PARIS =====
+  {
+    slug: 'parc-des-princes',
+    name: 'Parc des Princes',
+    citySlug: 'paris',
+    city: 'Paris',
+    type: 'stadium',
+    capacity: 47929,
+    sport: 'Football',
+    teams: ['Paris Saint-Germain'],
+    image: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80',
+    description:
+      'The Parc des Princes in the 16th arrondissement is the fortress of Paris Saint-Germain and one of European football\'s most intimidating grounds. The steep, enclosed bowl design traps sound and creates a cauldron of noise, especially in the Virage Auteuil where the ultras orchestrate non-stop chanting. Champions League nights here are absolutely electric, with the Parisian faithful pushing their team forward under the floodlights.',
+    nearbyHostels: 2,
+    walkingDistance: '8 min from Porte de Saint-Cloud metro',
+    transitInfo:
+      'Porte de Saint-Cloud (Metro Line 9) is an 8-minute walk. Exelmans station (Line 9) is also close. On match days, special buses run from central Paris. RER C to Issy-Val de Seine is an alternative route.',
+    fanTips: [
+      'Virage Auteuil is the ultras end — expect standing, tifos, and non-stop singing',
+      'Brasseries along Avenue du Parc des Princes fill up with fans hours before kickoff',
+      'The Bois de Boulogne park is adjacent for a pre-match stroll',
+      'PSG boutique at the stadium sells exclusive matchday merchandise',
+    ],
+    events: [
+      'psg-vs-marseille-le-classique-2026',
+      'psg-champions-league-2026',
+    ],
+  },
+  {
+    slug: 'stade-de-france',
+    name: 'Stade de France',
+    citySlug: 'paris',
+    city: 'Paris',
+    type: 'stadium',
+    capacity: 81338,
+    sport: 'Football',
+    teams: ['France National Team'],
+    image: 'https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&q=80',
+    description:
+      'Built for the 1998 World Cup where Zidane led France to glory, the Stade de France in Saint-Denis is the national stadium and the largest in France. It hosts Les Bleus football and rugby internationals, the Top 14 rugby final, and the biggest concerts in the country. The sweeping elliptical design and floating roof create a dramatic spectacle, and 81,000 fans singing La Marseillaise before kickoff is spine-tingling.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Stade de France - Saint-Denis station',
+    transitInfo:
+      'RER B and RER D both stop at Stade de France - Saint-Denis station, a 10-minute walk away. Metro Line 13 to Saint-Denis Universite is an alternative. Special event shuttles run from Gare du Nord on big match days.',
+    fanTips: [
+      'La Marseillaise sung by 80,000 fans is one of sport\'s greatest pre-match rituals',
+      'The fan zone outside the stadium opens several hours before major events',
+      'Six Nations rugby matches here have an incredible party atmosphere',
+      'Bars and restaurants along the Canal Saint-Denis are great for pre-match gatherings',
+    ],
+    events: [
+      'france-vs-england-six-nations-2026',
+      'france-vs-germany-nations-league-2026',
+    ],
+  },
+  {
+    slug: 'accor-arena-paris',
+    name: 'Accor Arena',
+    citySlug: 'paris',
+    city: 'Paris',
+    type: 'arena',
+    capacity: 20300,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800&q=80',
+    description:
+      'Located in the Bercy district along the Seine, the Accor Arena (formerly Bercy Arena) is Paris\'s premier indoor venue for concerts, basketball, tennis, and martial arts events. The 20,300-capacity arena has hosted everything from the Paris Masters tennis tournament to the biggest names in global music. Its central location and excellent transport links make it one of Europe\'s most accessible major arenas.',
+    nearbyHostels: 3,
+    walkingDistance: '3 min from Bercy metro station',
+    transitInfo:
+      'Bercy metro station (Line 6 and Line 14) is directly adjacent. Gare de Lyon mainline station is a 10-minute walk, connecting to regional and high-speed trains. Bus routes 24 and 87 serve the area.',
+    fanTips: [
+      'Bercy Village shopping and dining complex next door is perfect for pre-show meals',
+      'The Paris Masters tennis tournament every October draws world-class players',
+      'Floor-level standing sections for concerts offer an intense experience',
+      'Walk along the Promenade Plantee (elevated park) near Gare de Lyon before the show',
+    ],
+    events: [
+      'paris-masters-tennis-2026',
+      'the-weeknd-paris-2026',
+    ],
+  },
+
+  // ===== AMSTERDAM =====
+  {
+    slug: 'johan-cruyff-arena',
+    name: 'Johan Cruyff Arena',
+    citySlug: 'amsterdam',
+    city: 'Amsterdam',
+    type: 'stadium',
+    capacity: 55500,
+    sport: 'Football',
+    teams: ['AFC Ajax'],
+    image: 'https://images.unsplash.com/photo-1459865264687-595d652de67e?w=800&q=80',
+    description:
+      'Named after the greatest Dutch footballer of all time, the Johan Cruyff Arena is the home of AFC Ajax and the beating heart of Dutch football. The retractable roof stadium in Amsterdam Zuidoost holds 55,500 fans who create a wall of sound with the famous "Three Little Birds" anthem echoing around the ground. Champions League nights here carry the legacy of Total Football and Ajax\'s legendary European triumphs.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Strandvliet station',
+    transitInfo:
+      'Amsterdam Bijlmer ArenA station (Metro 50, 54 and NS trains) is directly adjacent. The metro connects to Amsterdam Centraal in about 15 minutes. Ample bicycle parking is available for the true Dutch experience.',
+    fanTips: [
+      'The F-Side (Vak 410) is where the Ajax ultras sing "Three Little Birds" non-stop',
+      'Ajax fan shop at the stadium has extensive merchandise including retro kits',
+      'Pre-match beers at the ArenA Boulevard bars are a match-day tradition',
+      'Cycling to the stadium from central Amsterdam takes about 25 minutes and is very Dutch',
+    ],
+    events: [
+      'ajax-vs-feyenoord-de-klassieker-2026',
+      'ajax-champions-league-2026',
+    ],
+  },
+  {
+    slug: 'ziggo-dome',
+    name: 'Ziggo Dome',
+    citySlug: 'amsterdam',
+    city: 'Amsterdam',
+    type: 'arena',
+    capacity: 17000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80',
+    description:
+      'The Ziggo Dome is Amsterdam\'s state-of-the-art indoor arena, located right next to the Johan Cruyff Arena in Amsterdam Zuidoost. Opened in 2012, it has quickly become one of Europe\'s best-regarded concert venues thanks to its exceptional acoustics, intimate bowl design, and cutting-edge production capabilities. Every major international tour makes a stop at the Ziggo Dome, and the Dutch crowds are famously enthusiastic.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Bijlmer ArenA station',
+    transitInfo:
+      'Amsterdam Bijlmer ArenA station (Metro 50, 54 and NS trains) is a 5-minute walk. Same excellent transport links as the Johan Cruyff Arena. Night buses run after late events back to central Amsterdam.',
+    fanTips: [
+      'The circular design means there are no bad seats — every angle has great sightlines',
+      'ArenA Boulevard restaurants and bars are shared with the football stadium crowd',
+      'Dutch fans are tall — book slightly elevated seats if you want unobstructed views',
+      'Combine a show with an Ajax match if schedules align for a double-header day',
+    ],
+    events: [
+      'adele-amsterdam-2026',
+      'eurovision-viewing-party-2026',
+    ],
+  },
+  {
+    slug: 'afas-live-amsterdam',
+    name: 'AFAS Live',
+    citySlug: 'amsterdam',
+    city: 'Amsterdam',
+    type: 'concert-hall',
+    capacity: 6000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&q=80',
+    description:
+      'AFAS Live is Amsterdam\'s beloved mid-size concert venue, also situated in the Amsterdam Zuidoost entertainment district alongside the Johan Cruyff Arena and Ziggo Dome. With a 6,000-person capacity, it offers an intimate yet energetic setting that\'s perfect for catching artists on the rise or established acts in a more personal environment. The venue\'s flexible layout and superb sound system make every show feel special.',
+    nearbyHostels: 2,
+    walkingDistance: '7 min from Bijlmer ArenA station',
+    transitInfo:
+      'Amsterdam Bijlmer ArenA station (Metro 50, 54 and NS trains) is a short walk. Part of the same entertainment district as Johan Cruyff Arena and Ziggo Dome. Night buses back to central Amsterdam run frequently.',
+    fanTips: [
+      'The standing-room floor creates an electric atmosphere for rock and indie shows',
+      'Arrive early for general admission to secure a spot near the front barrier',
+      'The venue bar prices are reasonable by Amsterdam standards',
+      'Check the schedule for double bills — AFAS Live often programs exciting support acts',
+    ],
+    events: [
+      'amsterdam-dance-event-2026',
+      'fontaines-dc-amsterdam-2026',
+    ],
+  },
+
+  // ===== MADRID =====
+  {
+    slug: 'santiago-bernabeu',
+    name: 'Santiago Bernabeu',
+    citySlug: 'madrid',
+    city: 'Madrid',
+    type: 'stadium',
+    capacity: 81044,
+    sport: 'Football',
+    teams: ['Real Madrid'],
+    image: 'https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&q=80',
+    description:
+      'The Santiago Bernabeu is the cathedral of European football and the home of the most decorated club in history. Real Madrid\'s legendary ground has undergone a spectacular renovation, adding a retractable pitch and roof that transforms it into a futuristic multi-use venue. With 15 Champions League titles celebrated within these walls, the Bernabeu radiates a winning aura that every football fan must experience in person.',
+    nearbyHostels: 3,
+    walkingDistance: '1 min from Santiago Bernabeu metro',
+    transitInfo:
+      'Santiago Bernabeu metro station (Line 10) is directly at the stadium entrance. Nuevos Ministerios station (Lines 6, 8, 10 plus Cercanias) is a short walk. The Paseo de la Castellana boulevard has excellent bus connections.',
+    fanTips: [
+      'El Clasico against Barcelona is the most sought-after ticket in world football',
+      'Fondo Sur (South End) is where the Ultras Sur historically created the atmosphere',
+      'The stadium tour includes the trophy room with all 15 Champions League trophies',
+      'Tapas bars along Calle Padre Damian fill with fans hours before kickoff',
+    ],
+    events: [
+      'real-madrid-vs-barcelona-el-clasico-2026',
+      'real-madrid-champions-league-2026',
+    ],
+  },
+  {
+    slug: 'metropolitano',
+    name: 'Civitas Metropolitano',
+    citySlug: 'madrid',
+    city: 'Madrid',
+    type: 'stadium',
+    capacity: 70460,
+    sport: 'Football',
+    teams: ['Atletico Madrid'],
+    image: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80',
+    description:
+      'The Civitas Metropolitano is the fiery home of Atletico Madrid and one of the most intense atmospheres in Spanish football. The Frente Atletico ultras in the south end drive a relentless wall of noise that embodies Simeone\'s "never give up" philosophy. Opened in 2017 and expanded for the 2019 Champions League Final, the modern bowl design creates an intimidating cauldron that visiting teams dread.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from Estadio Metropolitano metro',
+    transitInfo:
+      'Estadio Metropolitano metro station (Line 7) is directly adjacent. Barrio del Pilar station (Line 7) is also close. Match-day bus services run from central Madrid. Located in the San Blas-Canillejas district.',
+    fanTips: [
+      'Fondo Sur behind the goal is the Frente Atletico section — expect non-stop passion',
+      'The Madrid derby against Real Madrid is one of the fiercest rivalries in Spain',
+      'Stadium food includes excellent Spanish tortilla and bocadillos',
+      'Pre-match drinks in the bars along Avenida de Arcentales set the mood perfectly',
+    ],
+    events: [
+      'atletico-vs-real-madrid-derby-2026',
+      'atletico-champions-league-2026',
+    ],
+  },
+  {
+    slug: 'wizink-center',
+    name: 'WiZink Center',
+    citySlug: 'madrid',
+    city: 'Madrid',
+    type: 'arena',
+    capacity: 17453,
+    sport: 'Basketball',
+    teams: ['Real Madrid Baloncesto'],
+    image: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80',
+    description:
+      'The WiZink Center on the Paseo de la Castellana is Madrid\'s premier indoor arena, home to Real Madrid\'s basketball team and host to the biggest concerts and events in the Spanish capital. Basketball is massive in Spain, and EuroLeague nights here with 17,000 passionate fans rival the atmosphere of any NBA arena. The venue also hosts tennis, boxing, and international music tours year-round.',
+    nearbyHostels: 2,
+    walkingDistance: '8 min from Goya metro station',
+    transitInfo:
+      'Goya metro station (Lines 2 and 4) is the closest stop. O\'Donnell station (Line 6) is also walkable. Bus routes along Calle de Goya serve the area. The venue is in the upscale Salamanca district.',
+    fanTips: [
+      'EuroLeague basketball nights are incredibly intense — Spanish fans live for basketball',
+      'Calle de Goya has excellent tapas bars for pre-event dining',
+      'Seated bowl views are excellent throughout — no bad seats in the house',
+      'The Salamanca neighborhood is Madrid\'s most elegant — enjoy a paseo before the event',
+    ],
+    events: [
+      'real-madrid-basketball-euroleague-2026',
+      'billie-eilish-madrid-2026',
+    ],
+  },
+
+  // ===== MILAN =====
+  {
+    slug: 'san-siro',
+    name: 'San Siro (Giuseppe Meazza)',
+    citySlug: 'milan',
+    city: 'Milan',
+    type: 'stadium',
+    capacity: 75923,
+    sport: 'Football',
+    teams: ['AC Milan', 'Inter Milan'],
+    image: 'https://images.unsplash.com/photo-1459865264687-595d652de67e?w=800&q=80',
+    description:
+      'San Siro is one of the most iconic stadiums in world football, uniquely shared by fierce city rivals AC Milan and Inter Milan. The towering spiral ramp towers and third tier added for the 1990 World Cup give it an unmistakable silhouette against the Milanese skyline. When 75,000 fans pack in for the Derby della Madonnina, the atmosphere is absolutely ferocious — a spectacle of tifos, flares, and raw passion that defines Italian football culture.',
+    nearbyHostels: 2,
+    walkingDistance: '5 min from San Siro Stadio metro',
+    transitInfo:
+      'San Siro Stadio metro station (Line M5, Lilac Line) is directly adjacent. Tram 16 also stops nearby. Match-day shuttle buses run from Piazzale Lotto. The stadium is in the western San Siro district.',
+    fanTips: [
+      'The Curva Sud is AC Milan\'s end and Curva Nord belongs to Inter — know your side',
+      'Derby della Madonnina is the most explosive city derby in Europe',
+      'The stadium museum chronicles the shared history of both clubs',
+      'Bars along Piazzale Lotto are packed with fans before every match',
+    ],
+    events: [
+      'ac-milan-vs-inter-derby-della-madonnina-2026',
+      'ac-milan-champions-league-2026',
+    ],
+  },
+  {
+    slug: 'mediolanum-forum',
+    name: 'Mediolanum Forum',
+    citySlug: 'milan',
+    city: 'Milan',
+    type: 'arena',
+    capacity: 12700,
+    sport: 'Basketball',
+    teams: ['EA7 Emporio Armani Milano'],
+    image: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80',
+    description:
+      'The Mediolanum Forum in Assago, just south of Milan, is Italy\'s premier indoor arena and the home of EA7 Emporio Armani Milano basketball. Built for the 1990 World Cup as a gymnastics venue, it has since become the go-to destination for major concerts, EuroLeague basketball, and entertainment events in northern Italy. The steep-sided bowl creates an intimate and loud atmosphere that punches well above its 12,700 capacity.',
+    nearbyHostels: 1,
+    walkingDistance: '5 min from Assago Milanofiori Forum metro',
+    transitInfo:
+      'Assago Milanofiori Forum metro station (Line M2, Green Line) is directly connected to the venue. The journey from central Milan takes about 25 minutes. Ample parking is also available.',
+    fanTips: [
+      'EuroLeague basketball nights bring passionate Italian fans who never stop chanting',
+      'The metro ride from Duomo to the Forum is quick and easy',
+      'Floor seats at concerts are standing room and offer an electric experience',
+      'Grab dinner in central Milan before heading south on the metro to the show',
+    ],
+    events: [
+      'ea7-milano-euroleague-2026',
+      'imagine-dragons-milan-2026',
+    ],
+  },
+  {
+    slug: 'teatro-la-scala',
+    name: 'Teatro alla Scala',
+    citySlug: 'milan',
+    city: 'Milan',
+    type: 'concert-hall',
+    capacity: 2030,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1471295253337-3ceaaedca402?w=800&q=80',
+    description:
+      'Teatro alla Scala is the most famous opera house on Earth and a temple of performing arts that has set the global standard since 1778. Verdi, Puccini, Toscanini, and Callas all made history within these neoclassical walls. The intimate 2,030-seat horseshoe auditorium with its six tiers of gilded boxes delivers acoustics so perfect that every whispered note reaches the back row. A night at La Scala is the pinnacle of cultural experience.',
+    nearbyHostels: 3,
+    walkingDistance: '5 min from Duomo metro station',
+    transitInfo:
+      'Duomo metro station (Lines M1 and M3) is a short walk through Galleria Vittorio Emanuele II. Montenapoleone station (Line M3) is also close. The theater sits on Piazza della Scala in the absolute heart of Milan.',
+    fanTips: [
+      'Dress elegantly — La Scala has an informal dress code and Milanese audiences take it seriously',
+      'Same-day discount tickets for the gallery (loggione) go on sale at the box office',
+      'The La Scala Museum next door displays centuries of opera costumes and memorabilia',
+      'Book a pre-show aperitivo at one of the historic cafes on Galleria Vittorio Emanuele II',
+    ],
+    events: [
+      'la-scala-opera-season-2026',
+      'la-scala-ballet-gala-2026',
+    ],
+  },
+
+  // ===== RIO DE JANEIRO =====
+  {
+    slug: 'maracana',
+    name: 'Maracana',
+    citySlug: 'rio-de-janeiro',
+    city: 'Rio de Janeiro',
+    type: 'stadium',
+    capacity: 78838,
+    sport: 'Football',
+    teams: ['Flamengo', 'Fluminense'],
+    image: 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&q=80',
+    description:
+      'The Maracana is the most famous stadium in South America and a sacred cathedral of football. Built for the 1950 World Cup and renovated for 2014, it has witnessed some of the sport\'s most dramatic moments, from Brazil\'s heartbreaking 1950 final defeat to Neymar\'s Olympic gold in 2016. Shared by bitter rivals Flamengo and Fluminense, the Fla-Flu derby fills 78,000 seats with samba drums, dancing, and sheer madness that defines Brazilian football culture.',
+    nearbyHostels: 3,
+    walkingDistance: '5 min from Maracana station',
+    transitInfo:
+      'Maracana metro station (Line 2) and Maracana train station (SuperVia) are both directly adjacent. The venue is in the Tijuca zone, well connected to Copacabana and Ipanema by metro. Match-day bus services run from the Zona Sul.',
+    fanTips: [
+      'Flamengo vs Fluminense (Fla-Flu) is one of the most passionate derbies on the planet',
+      'The samba drum sections behind each goal create a rhythm that never stops',
+      'Wear your team colors proudly — Carioca fans are welcoming to visiting supporters',
+      'Street vendors outside sell incredible coxinha and acai bowls before matches',
+    ],
+    events: [
+      'flamengo-vs-fluminense-fla-flu-2026',
+      'brazil-vs-argentina-wcq-2026',
+    ],
+  },
+  {
+    slug: 'engenhao',
+    name: 'Estadio Nilton Santos (Engenhao)',
+    citySlug: 'rio-de-janeiro',
+    city: 'Rio de Janeiro',
+    type: 'stadium',
+    capacity: 46931,
+    sport: 'Football',
+    teams: ['Botafogo'],
+    image: 'https://images.unsplash.com/photo-1459865264687-595d652de67e?w=800&q=80',
+    description:
+      'Known affectionately as Engenhao, the Estadio Nilton Santos served as the main athletics venue for the 2016 Rio Olympics and is the home of Botafogo, one of Rio\'s most historic clubs. The sweeping modern design by architect Carlos Porto creates excellent sightlines from every seat, and the passionate Botafogo torcida fills the ground with black-and-white flags and fervent singing on match days.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Engenhao station',
+    transitInfo:
+      'Engenhao train station (SuperVia) is a 10-minute walk. The venue is in the Engenho de Dentro neighborhood. Bus routes from central Rio and the Zona Sul serve the area. Ride-sharing is popular on match days.',
+    fanTips: [
+      'Botafogo fans are among the most loyal in Rio — their chants are melodic and constant',
+      'The running track around the pitch means seats are set back, so lower tiers are best',
+      'Food stalls outside the stadium serve traditional Brazilian match-day snacks',
+      'Combine a match with exploring the Tijuca Forest national park nearby',
+    ],
+    events: [
+      'botafogo-brasileirao-2026',
+      'rio-athletics-meeting-2026',
+    ],
+  },
+  {
+    slug: 'jeunesse-arena',
+    name: 'Jeunesse Arena',
+    citySlug: 'rio-de-janeiro',
+    city: 'Rio de Janeiro',
+    type: 'arena',
+    capacity: 18000,
+    teams: [],
+    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80',
+    description:
+      'Built as the Olympic Park Arena for the 2016 Rio Games, the Jeunesse Arena in Barra da Tijuca is Rio de Janeiro\'s modern indoor venue for concerts, basketball, and entertainment events. The 18,000-capacity arena sits within the Olympic Park complex and hosts every major international tour that comes through Brazil. The energetic Carioca crowds make every concert feel like a carnival celebration.',
+    nearbyHostels: 1,
+    walkingDistance: '15 min from Jardim Oceanico metro',
+    transitInfo:
+      'Jardim Oceanico metro station (Line 4) is the closest stop, about a 15-minute walk or short bus ride. BRT Transcarioca buses also serve the Olympic Park area. Located in the Barra da Tijuca district, away from central Rio.',
+    fanTips: [
+      'Brazilian concert crowds are among the most enthusiastic in the world — expect singing along',
+      'Barra da Tijuca beaches are nearby for a pre-show afternoon in the sun',
+      'The Olympic Park area has food courts and entertainment options',
+      'Book accommodation in Barra da Tijuca to avoid the long journey back to Copacabana at night',
+    ],
+    events: [
+      'rock-in-rio-arena-2026',
+      'ufc-rio-2026',
+    ],
+  },
+
+  // ===== TORONTO =====
+  {
+    slug: 'scotiabank-arena',
+    name: 'Scotiabank Arena',
+    citySlug: 'toronto',
+    city: 'Toronto',
+    type: 'arena',
+    capacity: 19800,
+    sport: 'Basketball',
+    teams: ['Toronto Raptors', 'Toronto Maple Leafs'],
+    image: 'https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?w=800&q=80',
+    description:
+      'Scotiabank Arena on Bay Street is the heart of Toronto\'s sports scene, home to the NBA\'s Raptors and the NHL\'s Maple Leafs. When the Raptors won the 2019 NBA Championship, the "We The North" movement turned this arena into the epicenter of Canadian basketball. Leafs games carry generations of hockey passion, and the downtown waterfront location makes it one of the most conveniently located major arenas in North America.',
+    nearbyHostels: 3,
+    walkingDistance: '1 min from Union Station',
+    transitInfo:
+      'Union Station (TTC subway, GO Transit, VIA Rail) is directly connected via the PATH underground walkway. The arena sits between the CN Tower and the Financial District. Streetcar routes along Queens Quay also serve the area.',
+    fanTips: [
+      'Jurassic Park (the outdoor viewing area on Bremner Blvd) is legendary during Raptors playoffs',
+      'Maple Leafs tickets are among the hardest to get in the NHL — book well in advance',
+      'Real Sports Bar & Grill next door is the premier pre-game spot',
+      'The PATH underground connects to shops and restaurants for a warm walk in winter',
+    ],
+    events: [
+      'raptors-vs-celtics-2026',
+      'maple-leafs-vs-canadiens-2026',
+    ],
+  },
+  {
+    slug: 'rogers-centre',
+    name: 'Rogers Centre',
+    citySlug: 'toronto',
+    city: 'Toronto',
+    type: 'stadium',
+    capacity: 49282,
+    sport: 'Baseball',
+    teams: ['Toronto Blue Jays'],
+    image: 'https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&q=80',
+    description:
+      'The Rogers Centre is home to the Toronto Blue Jays and one of the most recognizable stadiums in baseball, famous for its fully retractable roof that opens to reveal the CN Tower and Toronto skyline. When the roof is open on a warm summer evening, there are few better places to watch a ball game in all of MLB. The Blue Jays\' passionate Canadian fanbase creates a unique atmosphere that blends American pastime traditions with unmistakable Canadian enthusiasm.',
+    nearbyHostels: 3,
+    walkingDistance: '3 min from Union Station',
+    transitInfo:
+      'Union Station (TTC subway, GO Transit, VIA Rail) is a 3-minute walk through the SkyWalk covered walkway. The CN Tower and Ripley\'s Aquarium are directly adjacent. Streetcars along Front Street provide additional connections.',
+    fanTips: [
+      'Sit in the 500 level on the third-base side for the best CN Tower views when the roof is open',
+      'Summer weekend afternoon games with the roof open are the ultimate Blue Jays experience',
+      'Steam Whistle Brewery across the street is a fantastic pre-game stop',
+      'The SkyWalk from Union Station keeps you dry on rainy days and warm in winter',
+    ],
+    events: [
+      'blue-jays-vs-yankees-2026',
+      'blue-jays-opening-day-2026',
+    ],
+  },
+  {
+    slug: 'bmo-field-toronto',
+    name: 'BMO Field',
+    citySlug: 'toronto',
+    city: 'Toronto',
+    type: 'stadium',
+    capacity: 30991,
+    sport: 'Football',
+    teams: ['Toronto FC', 'Toronto Argonauts'],
+    image: 'https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80',
+    description:
+      'BMO Field on the Exhibition Place grounds is the home of Toronto FC (MLS) and the Toronto Argonauts (CFL), sitting right on the Lake Ontario waterfront with stunning views of the city skyline. The south end supporter section is one of the most vocal in MLS, and the intimate 30,000-seat capacity ensures fans are right on top of the action. TFC\'s passionate supporter groups have built a genuine football culture in a traditionally hockey-mad city.',
+    nearbyHostels: 2,
+    walkingDistance: '10 min from Exhibition station',
+    transitInfo:
+      'Exhibition GO station is a 10-minute walk. The 509 Harbourfront and 511 Bathurst streetcar routes stop at Exhibition Loop nearby. The venue is on the CNE grounds along the waterfront, west of downtown.',
+    fanTips: [
+      'The south end supporter section (Sections 111-114) is where the ultras sing and drum all match',
+      'Liberty Village neighborhood nearby has excellent brewpubs for pre-match pints',
+      'CFL Argonauts games are affordable and have a fun, family-friendly atmosphere',
+      'Walk along the Martin Goodman Trail on the waterfront before or after the match',
+    ],
+    events: [
+      'toronto-fc-vs-cf-montreal-2026',
+      'toronto-argonauts-cfl-2026',
+    ],
+  },
 ];
