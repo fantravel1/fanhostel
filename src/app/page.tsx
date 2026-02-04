@@ -33,12 +33,12 @@ const homeFaqs = [
   {
     question: "What cities does FanHostel cover?",
     answer:
-      "We cover 14 major fan cities across 4 continents: London, Barcelona, Berlin, New York City, Los Angeles, Mexico City, Buenos Aires, Tokyo, Paris, Amsterdam, Madrid, Milan, Rio de Janeiro, and Toronto. We're constantly expanding to cover more tournament cities, college sports towns, and festival circuits worldwide.",
+      "We cover 30 major fan cities across 6 continents: London, Barcelona, Berlin, New York City, Los Angeles, Mexico City, Buenos Aires, Tokyo, Paris, Amsterdam, Madrid, Milan, Rio de Janeiro, Toronto, Munich, Istanbul, Manchester, Liverpool, Lisbon, Naples, Glasgow, Seoul, Melbourne, Sao Paulo, Chicago, Miami, Cape Town, Bangkok, Montreal, and Mumbai. We're constantly expanding to cover more tournament cities, college sports towns, and festival circuits worldwide.",
   },
   {
     question: "How much do fan hostels typically cost per night?",
     answer:
-      "Prices vary by city and event, but most fan hostels range from $12-45 per night for a dorm bed. During major events like derbies or festivals, prices may increase. We always show current price ranges and booking tips to help you find the best deals.",
+      "Prices vary by city and event, but fan hostels range from as low as $8/night in Bangkok and Mumbai to $40-45/night in cities like New York and Miami. Most dorm beds fall in the $14-35 range. During major events like derbies or festivals, prices may increase. We always show current price ranges and booking tips to help you find the best deals.",
   },
   {
     question: "Is it safe to stay in fan hostels during big events?",
@@ -201,7 +201,7 @@ export default function HomePage() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 mb-8">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             <span className="text-sm font-medium text-white/80">
-              Live: 1,500+ venues tracked worldwide
+              Live: 3,000+ venues tracked across 30 cities worldwide
             </span>
           </div>
 
